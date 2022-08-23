@@ -1,0 +1,23 @@
+{
+  "camp_impression_summary_title" : "CAMPAIGN IMPRESSION SUMMARY",
+  "camp_impression_summary_subtitle" : "Campaign impression summary",
+  "camp_impression_summary_date_search" : "Date Search :",
+  "camp_impression_summary_to" : "to",
+  "camp_impression_summary_search" : "Search",
+  "camp_impression_summary_no" : "NO",
+  "camp_impression_summary_camp_name" : "CAMPAIGN NAME",
+  "camp_impression_summary_start_date" : "START DATE",
+  "camp_impression_summary_end_date" : "END DATE",
+  "camp_impression_summary_trigger" : "TRIGGER",
+  "camp_impression_summary_target" : "TARGET",
+  "camp_impression_summary_source" : "SOURCE",
+  "camp_impression_summary_total_impression" : "TOTAL IMPRESSION",
+  "camp_impression_summary_unique_impression" : "UNIQUE IMPRESSION",
+  "camp_impression_summary_status" : "STATUS",
+  "camp_impression_summary_action" : "ACTION",
+  "camp_impression_summary_modal_title" : "Campaign Hourly View",
+  "camp_impression_summary_modal_date" : "Date",
+  "camp_impression_summary_modal_impress" : "Impress",
+  "camp_impression_summary_modal_unique_impress" : "Unique Impress",
+  "camp_impression_summary_modal_close" : "Close"
+} 

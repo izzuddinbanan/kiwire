@@ -1,0 +1,11 @@
+{
+    "integration_zapier_title" : "Zapier",
+    "integration_zapier_subtitle" : "Authentication for zapier",
+    "integration_zapier_save" : "Save",
+    "integration_zapier_enable" : "Enable",
+    "integration_zapier_public_url" : "Public URL",
+    "integration_zapier_auth_key" : "Authentication Key",
+    "integration_zapier_generate_key" : "Generate Key",
+    "integration_copy_key" : "Copy Key"
+    
+    }

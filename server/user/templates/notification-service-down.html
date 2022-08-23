@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kiwire Notification: Service Down</title>
+</head>
+<body>
+
+<table style="max-width: 900px; font-family: Arial, 'Open Sans', sans-serif;">
+    <tr>
+        <th style="font-size: 18px; font-weight: normal; border-bottom: #a8a8a2 thin solid; text-align: left;">
+            <div style="margin: 10px 0;">
+                Kiwire Notification: Service Down [ {{service_name}} ]
+            </div>
+        </th>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px; padding-bottom: 10px; font-size: 12px; line-height: 1.5;">
+
+            Kiwire detected the service mentioned below is down. Please check as soon as possible.
+
+            <table style="padding: 10px; margin: 10px 0; font-family: Arial, 'Open Sans', sans-serif; font-size: 12px;">
+                <tr>
+                    <td style="padding: 5px;">Service</td>
+                    <td style="padding: 5px;">:</td>
+                    <td style="padding: 5px;">{{service_name}}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 5px;">Time</td>
+                    <td style="padding: 5px;">:</td>
+                    <td style="padding: 5px;">{{time_now}}</td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px; font-size: 12px; line-height: 1.5;">
+            Thanks.
+            <br>
+            <span>This email was automatically generated.</span>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

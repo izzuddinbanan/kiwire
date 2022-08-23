@@ -1,0 +1,18 @@
+{
+    "logine_engine_one_click_login_title" : "One Click Login",
+    "logine_engine_one_click_login_subtitle" : "Page for one click login",
+    "logine_engine_one_click_login_save" : "Save",
+    "logine_engine_one_click_login_enable" : "Enable",
+    "logine_engine_one_click_login_using" : "Login Using",
+    "logine_engine_one_click_login_using_mac" : "MAC",
+    "logine_engine_one_click_login_using_username" : "Username",
+    "logine_engine_one_click_login_uname" : "Username",
+    "logine_engine_one_click_login_link" : "Link With Profile",
+    "logine_engine_one_click_login_none" : "None",
+    "logine_engine_one_click_login_validity" : "Validity",
+    "logine_engine_one_click_login_days" : "days",
+    "logine_engine_one_click_login_zone_restriction" : "Zone Restriction",
+    "logine_engine_one_click_login_none2" : "None",
+    "logine_engine_one_click_login_add_field" : "Additional Field"
+    
+    }

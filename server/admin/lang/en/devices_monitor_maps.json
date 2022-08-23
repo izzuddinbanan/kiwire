@@ -1,0 +1,18 @@
+{
+	 "title"						:	"Monitoring Maps",
+	 "subtitle"						:	"List of maps",
+	 "btn_add_map"					:	"Add Map",
+	 "thead_no"						:	"No",
+	 "thead_map_name"				:	"Map Name",
+	 "thead_desc"					:	"Description",
+	 "thead_action"					:	"Action",
+	 "tbody_loading"				:	"Loading...",
+	 "modal_1_title"				:	"Add or Edit Map",
+	 "modal_1_map_file"				:	"Map File: ",
+	 "map_file_choose_file"			:	"Choose file",
+	 "modal_1_map_name"				:	"Map Name: ",
+	 "modal_1_description"			:	"Description: ",
+	 "modal_1_footer_btn_cancel"	:	"Cancel",
+	 "modal_1_footer_btn_create"	:	"Create",
+	 "modal_1_footer_btn_update"	:	"Update",
+}

@@ -1,0 +1,16 @@
+{
+    "integration_lbs_title" : "LBS",
+    "integration_lbs_subtitle" : "Manage connection to LBS service",
+    "integration_lbs_save" : "Save",
+    "integration_lbs_enable" : "Enable",
+    "integration_lbs_url" : "URL Path",
+    "integration_lbs_secret_key" : "Secret Key",
+    "integration_lbs_test" : "Test",
+    "integration_lbs_test_omaya_connection" : "Test Omaya Connection",
+    "integration_lbs_link" : "Link",
+    "integration_lbs_key" : "Key",
+    "integration_lbs_client" : "Client",
+    "integration_lbs_expired" : "expired",
+    "integration_lbs_close" : "Close"
+    
+    }

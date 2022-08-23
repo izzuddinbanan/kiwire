@@ -1,0 +1,7 @@
+{
+    "help_ping_title" : "IP Ping",
+    "help_ping_subtitle" : "Network ping tools",
+    "help_ping_ip_addr" : "IP Address / Domain:",
+    "help_ping_provide_domain" : "Please provide IP address or domain name and click [ Ping ]"
+    
+    }

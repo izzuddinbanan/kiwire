@@ -1,0 +1,15 @@
+{
+	"title"						:	"Smart Banner",
+	"subtitle"					:	"Banner for mobile apps",
+	"button_save"				:	"Save",
+	"form_title"				:	"APPS INFORMATION",
+	"form_span_enable"			:	"Enable",
+	"form_span_upload_logo"		:	"Upload Logo",
+	"form_choose_file"			:	"Choose file",
+	"form_span_current_logo"	:	"Current Logo",
+	"form_span_title"			:	"Title",
+	"form_span_author"			:	"Author",
+	"form_span_price"			:	"Price",
+	"form_span_playstore"		:	"Google Playstore Url",
+	"form_span_appstore"		:	"Apple App Store Url"
+}

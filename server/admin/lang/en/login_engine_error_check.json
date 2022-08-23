@@ -1,0 +1,9 @@
+{
+    "login_engine_error_check_title" : "Login Check",
+    "login_engine_error_check_subtitle" : "Set the arrangement of checks to be perform before allow a device to connect to internet",
+    "login_engine_error_check_select" : "Please select check that you want to perform when user connected to your network and their order.",
+    "login_engine_error_check_save" : "Save",
+    "login_engine_error_check_available" : "AVAILABLE CHECK ITEMS",
+    "login_engine_error_check_order" : "CHECK TO BE PERFORM IN ORDER"
+    
+    }

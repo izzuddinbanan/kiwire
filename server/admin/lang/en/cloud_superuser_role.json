@@ -1,0 +1,16 @@
+{
+	"title"								:	"Superuser Role",
+	"subtitle"							:	"Manage role for superuser",
+	"button_add_role"					:	"Add Role",
+	"thead_no"							:	"no",
+	"thead_role"						:	"role",
+	"thead_action"						:	"action",
+	"tbody_loading"						:	"Loading..",
+	"modal_1_title"						:	"Add or Edit Role",
+	"modal_1_form_name"					:	"Role Name:",
+	"modal_1_form_access"				:	"Allow Access:",
+	"modal_1_form_access_btn_select"	:	"Select All",
+	"modal_1_form_access_btn_clear"		:	"Clear All",
+	"modal_1_footer_btn_cancel"			:	"Cancel",
+	"modal_1_footer_btn_create"			:	"Create"
+}

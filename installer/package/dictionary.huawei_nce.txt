@@ -1,0 +1,83 @@
+#
+#       Radius Attribute Value Dictionary
+#
+#       This file contains dictionary translations for parsing
+#       Radius Attribute/Value Pairs. The value of each attribute
+#       is specified as one of 4 data types. Valid data types are:
+#
+#       string - 0-253 octets
+#       ipaddr - 4 octets in network byte order
+#       integer - 32 bit value in big endian order (high byte first)
+#       date - 32 bit value in big endian order
+#
+#
+
+
+
+VENDOR          HW-nce                  2011
+
+BEGIN-VENDOR    HW-nce
+
+# huawei begin
+ATTRIBUTE      HW-Input-Peak-Information-Rate               1         integer
+ATTRIBUTE      HW-Input-Committed-Information-Rate          2         integer
+ATTRIBUTE      HW-Input-Committed-Burst-Size                3         integer
+ATTRIBUTE      HW-Output-Peak-Information-Rate              4         integer
+ATTRIBUTE      HW-Output-Committed-Information-Rate         5         integer
+ATTRIBUTE      HW-Output-Committed-Burst-Size               6         integer
+ATTRIBUTE      HW-Remanent-Volume                           15        integer
+ATTRIBUTE      HW-Subscriber-QoS-Profile                    17        string
+ATTRIBUTE      HW-UserName-Access-Limit                     18        integer
+ATTRIBUTE      HW-Connect-ID                                26        integer
+ATTRIBUTE      HW-FTP-Directory                             28        string
+ATTRIBUTE      HW-Exec-Privilege                            29        integer
+ATTRIBUTE      HW-Qos-Data                                  31        string
+ATTRIBUTE      HW-VoiceVlan                                 33        integer
+ATTRIBUTE      HW-ProxyRdsPkt                               35        integer
+ATTRIBUTE      HW-NAS-Startup-Time-Stamp                    59        integer
+ATTRIBUTE      HW-IP-Host-Address                           60        string
+ATTRIBUTE      HW-Up-Priority                               61        integer
+ATTRIBUTE      HW-Down-Priority                             62        integer
+ATTRIBUTE      HW-Primary-WINS                              75        ipaddr
+ATTRIBUTE      HW-Second-WINS                               76        ipaddr
+ATTRIBUTE      HW-Input-Peak-Burst-Size                     77        integer
+ATTRIBUTE      HW-Output-Peak-Burst-Size                    78        integer
+ATTRIBUTE      HW-Data-Filter                               82        string
+ATTRIBUTE      HW-Client-Primary-DNS                        135       ipaddr
+ATTRIBUTE      HW-Client-Secondary-DNS                      136       ipaddr
+ATTRIBUTE      HW-Domain-Name                               138       string
+ATTRIBUTE      HW-AP-Information                            141       string
+ATTRIBUTE      HW-User-Information                          142       string
+ATTRIBUTE      HW-Service-Scheme                            146       string
+ATTRIBUTE      HW-Access-Type                               153       integer
+ATTRIBUTE      HW-URL-Flag                                  155       integer
+ATTRIBUTE      HW-Portal-URL                                156       string
+ATTRIBUTE      HW-Terminal-Type                             157       string
+ATTRIBUTE      HW-HTTP-UA                                   159       string
+ATTRIBUTE      HW-UCL-Group                                 160       integer
+ATTRIBUTE      HW-Forwarding-VLAN                           161       string
+ATTRIBUTE      HW-Forwarding-Interface                      162       string
+ATTRIBUTE      HW-LLDP                                      163       string
+ATTRIBUTE      HW-Acct-ipv6-Input-OctetsNS                  166       integer
+ATTRIBUTE      HW-Redirect-ACL                              173       string
+ATTRIBUTE      HW-Tariff-Ipv6-Input-Octets                  174       string
+ATTRIBUTE      HW-Tariff-Ipv6-Output-Octets                 175       string
+ATTRIBUTE      HW-Tariff-Ipv6-Input-Gigawords               176       string
+ATTRIBUTE      HW-Tariff-Ipv6-Output-Gigawords              177       string
+ATTRIBUTE      HW-IPv6-Redirect-ACL                         178       string
+ATTRIBUTE      HW-User-Extend-Info                          201       string
+ATTRIBUTE      HW-Web-Authen-Info                           237       string
+ATTRIBUTE      HW-Ext-Specific                              238       string
+ATTRIBUTE      HW-User-Access-Info                          239       string
+ATTRIBUTE      HW-Access-Device-Info                        240       string
+ATTRIBUTE      HW-Reachable-Detect                          244       string
+ATTRIBUTE      HW-Tariff-Input-Octets                       247       string
+ATTRIBUTE      HW-Tariff-Output-Octets                      248       string
+ATTRIBUTE      HW-Tariff-Input-Gigawords                    249       string
+ATTRIBUTE      HW-Tariff-Output-Gigawords                   250       string
+ATTRIBUTE      HW-IPv6-Filter-ID                            251       string
+ATTRIBUTE      HW-Version                                   254       string
+ATTRIBUTE      HW-Product-ID                                255       string
+# huawei end
+
+END-VENDOR      HW-nce

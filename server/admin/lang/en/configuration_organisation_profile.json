@@ -1,0 +1,14 @@
+{
+	"title"						:	"Organisation Profile",
+	"subtitle"					:	"Configure organisation profile",
+	"btn_save"					:	"Save",
+	"form_upload_logo"			:	"Upload Logo",
+	"form_choose_file"			:	"Choose file",
+	"form_logo_max"				:	"Logo maximum size is 1MB",
+	"form_current_logo"			:	"Current Logo",
+	"form_customer"				:	"Customer",
+	"form_industry_type"		:	"Industry Type",
+	"form_website"				:	"Website",
+	"form_phone_no"				:	"Phone No",
+	"form_address"				:	"Address"
+}

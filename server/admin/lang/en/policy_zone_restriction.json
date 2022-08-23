@@ -1,0 +1,16 @@
+{
+    "policy_zone_restriction_title" : "Zone Restriction",
+    "policy_zone_restriction_subtitle" : "Manage zone restriction policy",
+    "policy_zone_restriction_add" : "Add Zone Restriction",
+    "policy_zone_restriction_ttno" : "No",
+    "policy_zone_restriction_tgroup_name" : "Group Name",
+    "policy_zone_restriction_taction" : "Action",
+    "policy_zone_restriction_loading" : "Loading...",
+    "policy_zone_restriction_add_edit" : "Add or Edit Zone Restriction",
+    "policy_zone_restriction_group_name" : "Group Name:",
+    "policy_zone_restriction_permission" : "Permission Control:",
+    "policy_zone_restriction_cancel" : "Cancel",
+    "policy_zone_restriction_create" : "Create",
+    "policy_zone_restriction_update" : "Update"
+    
+    }

@@ -1,0 +1,11 @@
+{
+  "account_inactive_summary_title" : "INACTIVE SUMMARY",
+  "account_inactive_summary_subtitle" : "View inactive accounts",
+  "account_inactive_summary_date_search" : "Date Search :",
+  "account_inactive_summary_to" : "to",
+  "account_inactive_summary_search" : "Search",
+  "account_inactive_summary_no" : "NO",
+  "account_inactive_summary_username" : "USERNAME",
+  "account_inactive_summary_profile" : "PROFILE",
+  "account_inactive_summary_expiration_date" : "EXPIRATION DATE"
+} 

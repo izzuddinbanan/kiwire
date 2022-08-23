@@ -1,0 +1,18 @@
+{
+	"title"						:	"Voucher Summary",
+	"subtitle"					:	"Detailed voucher summary",
+	"thead_no"					:	"NO",
+	"thead_id"					:	"BULK ID",
+	"thead_username"			:	"CREATED BY",
+	"thead_remark"				:	"REMARK",
+	"thead_unit"				:	"UNIT PRICE (MYR)",
+	"thead_qty"					:	"QTY",
+	"thead_total"				:	"TOTAL PRICE (MYR)",
+	"thead_action"				:	"ACTION",
+	"modal_1_title"				:	"Voucher Summary",
+	"modal_1_thead_no"			:	"No",
+	"modal_1_thead_username"	:	"Username",
+	"modal_1_thead_created"		:	"Create Date",
+	"modal_1_thead_expiry"		:	"Expiry Date",
+	"modal_1_thead_price"		:	"Unit Price(MYR)"
+}

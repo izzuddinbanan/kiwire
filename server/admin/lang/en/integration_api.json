@@ -1,0 +1,25 @@
+{
+    "integration_api_title" : "API",
+    "integration_api_subtitle" : "API connectivity with 3rd party, let other access and manage our system",
+    "integration_api_add" : "Add Authentication Key",
+    "integration_api_no" : "No",
+    "integration_api_auth_key" : "Authentication Key",
+    "integration_api_permission" : "Permission",
+    "integration_api_role" : "Role",
+    "integration_api_action" : "Action",
+    "integration_api_loading" : "Loading..",
+    "integration_api_add_edit" : "Add or Edit Authentication Key",
+    "integration_api_enable" : "Enable:",
+    "integration_api_permission2" : "Permission:",
+    "integration_api_read" : "Read",
+    "integration_api_write" : "Write",
+    "integration_api_readwrite" : "Read & Write",
+    "integration_api_role2" : "Role:",
+    "integration_api_auth_key2" : "Authentication Key:",
+    "integration_api_copy_key" : "Copy Key",
+    "integration_api_cancel" : "Cancel",
+    "integration_api_create" : "Create",
+    "integration_api_update" : "Update"
+    
+    
+    }

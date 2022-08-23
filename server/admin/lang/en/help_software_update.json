@@ -1,0 +1,13 @@
+{
+    "help_software_update_title" : "Software Update",
+    "help_software_update_subtitle" : "Perform software update",
+    "help_software_update_save" : "Save",
+    "help_software_update_enable" : "Enable Auto-Update",
+    "help_software_update_version" : "Version",
+    "help_software_update_build_num" : "Build Number",
+    "help_software_update_last" : "Last Update",
+    "help_software_update_status" : "Status",
+    "help_software_update_url" : "Update URL",
+    "help_software_update_run" : "Run Update Now"
+    
+    }

@@ -1,0 +1,13 @@
+{
+  "account_summary_title" : "ACCOUNT SUMMARY",
+  "account_summary_subtitle" : "Your current system account summary",
+  "account_summary_description" : "DESCRIPTION",
+  "account_summary_count" : "COUNT",
+  "account_summary_voucher" : "Number of Vouchers",
+  "account_summary_users" : "Number of Users",
+  "account_summary_simcard" : "Number of Sim Card",
+  "account_summary_total_account" : "Total Number of Account ( 1 + 2 + 3 )",
+  "account_summary_activated_account" : "Total Number of Activated Accounts",
+  "account_summary_expired_account" : "Total Number of Expired Accounts",
+  "account_summary_suspended_account" : "Total Number of Suspended Account"
+} 

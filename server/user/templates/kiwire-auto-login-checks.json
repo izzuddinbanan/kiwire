@@ -1,0 +1,17 @@
+[{
+  "name": "MAC Auto Login",
+  "description": "Check if the device mac address already login previously.",
+  "function": "mac_auto_login"
+},{
+  "name": "QR Auto Login",
+  "description": "Check if the device redirected by scanning a pre-generated QR code.",
+  "function": "qr_auto_login"
+},{
+  "name": "Zone Auto Login",
+  "description": "Check if the zone has been setup to automatically connect the device using specific account.",
+  "function": "zone_auto_login"
+},{
+  "name": "Cookies Auto Login",
+  "description": "Check if user device browser contain specific cookies with the login credential.",
+  "function": "cookies_auto_login"
+}]

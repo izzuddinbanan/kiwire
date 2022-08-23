@@ -1,0 +1,10 @@
+{
+    "login_engine_additional_field_title" : "Additional Field",
+    "login_engine_additional_field_subtitle" : "Create new additional field",
+    "login_engine_additional_field_no" : "NO",
+    "login_engine_additional_field_variable" : "VARIABLE",
+    "login_engine_additional_field_display" : "DISPLAY",
+    "login_engine_additional_field_required" : "REQUIRED?",
+    "login_engine_additional_field_action" : "ACTION"
+    
+    }

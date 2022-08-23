@@ -1,0 +1,6 @@
+"LOGIN DATE/TIME","LOGOUT DATE/TIME",USERNAME,"MAC ADDRESS","IP ADDRESS","IPV6 ADDRESS",ZONE,"NAS ID",REASON,"TOTAL TIME","AVERAGE SPEED","TRAFFIC USED",CLASS,BRAND,MODEL,TENANT
+"2022-01-06 10:21:35","2022-01-06 10:22:29",test2,5c:1c:b9:ca:86:93,40.40.20.7,,nozone,synchroweb,User-Request,00:00:53,0.4736,0.8638,Smartphone,Vivo,Y17,default
+"2022-01-06 16:32:08","2022-01-06 16:34:29",test1,5c:1c:b9:ca:86:93,40.40.20.5,,nozone,synchroweb,User-Request,00:02:20,0.0156,0.2441,Smartphone,Vivo,Y17,default
+"2022-01-06 16:34:48","2022-01-06 16:35:08",test2,5c:1c:b9:ca:86:93,40.40.20.5,,nozone,synchroweb,User-Request,00:00:20,0.0127,0.0362,Smartphone,Vivo,Y17,default
+"2022-01-06 16:35:24","2022-01-06 16:48:55",test1,5c:1c:b9:ca:86:93,40.40.20.5,,nozone,synchroweb,User-Request,00:13:32,0.0068,0.4735,Smartphone,Vivo,Y17,default
+"2022-01-06 16:36:47","2022-01-06 16:37:25",test2,32:c6:ef:a9:02:4d,40.40.20.6,,nozone,synchroweb,User-Request,00:00:38,0.0654,0.0656,Tablet,Samsung,"Galaxy Tab A 101 201",default

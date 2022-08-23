@@ -1,0 +1,23 @@
+{
+  "camp_coupon_click_title" : "COUPON CLICK SUMMARY",
+  "camp_coupon_click_subtitle" : "Total number of clicks for each coupon",
+  "camp_coupon_click_date_search" : "Date Search :",
+  "camp_coupon_click_to" : "to",
+  "camp_coupon_click_search" : "Search",
+  "camp_coupon_click_select_coupon" : "Select Coupon",
+  "camp_coupon_click_total_unique_view" : "TOTAL UNIQUE VIEW",
+  "camp_coupon_click_average_unique_view" : "AVERAGE UNIQUE VIEW",
+  "camp_coupon_click_total_view" : "TOTAL VIEW",
+  "camp_coupon_click_average_view" : "AVERAGE VIEW",
+  "camp_coupon_click_table_no" : "No",
+  "camp_coupon_click_table_date" : "Date",
+  "camp_coupon_click_table_unique_view" : "Unique View",
+  "camp_coupon_click_table_total_view" : "Total View",
+  "camp_coupon_click_table_hourly_view" : "Hourly View",
+  "camp_coupon_click_table_loading" : "Loading...",
+  "camp_coupon_click_modal_title" : "Coupon View on Hourly Basis",
+  "camp_coupon_click_modal_no" : "No",
+  "camp_coupon_click_modal_hour" : "Hour",
+  "camp_coupon_click_modal_unique_view" : "Unique View",
+  "camp_coupon_click_modal_total_view" : "Total View"
+} 

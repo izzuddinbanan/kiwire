@@ -1,0 +1,17 @@
+{
+    "login_engine_public_signup_title" : "Public Sign Up",
+    "login_engine_public_signup_subtitle" : "Sign up page for public",
+    "login_engine_public_signup_save" : "Save",
+    "login_engine_public_signup_enable" : "Enable",
+    "login_engine_public_signup_link" : "Link With Profile",
+    "login_engine_public_signup_none_link" : "None",
+    "login_engine_public_signup_validity" : "Validity",
+    "login_engine_public_signup_days" : "Days",
+    "login_engine_public_signup_registered" : "Once Registered",
+    "login_engine_public_signup_login" : "Login User",
+    "login_engine_public_signup_journey" : "Follow Journey",
+    "login_engine_public_signup_zone_restriction" : "Zone Restriction",
+    "login_engine_public_signup_none_zone" : "None",
+    "login_engine_public_signup_add_field" : "Additional Fields"
+    
+    }

@@ -1,0 +1,8 @@
+{
+  "logs_email_title" : "Email Delivery Summary",
+  "logs_email_subtitle" : "Email delivery log",
+  "logs_email_no" : "NO",
+  "logs_email_creation_date" : "CREATION DATE/TIME",
+  "logs_email_send_date" : "SEND DATE/TIME",
+  "logs_email_status" : "STATUS"
+} 

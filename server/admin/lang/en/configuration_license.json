@@ -1,0 +1,11 @@
+{
+	"title"									:	"License Settings",
+	"subtitle"								:	"Settings for license",
+	"btn_save"								:	"Save",
+	"form_cloud"							:	"CLOUD",
+	"form_multitenant"						:	"MULTI-TENANT",
+	"form_cloud_license"					:	"License Key",
+	"form_cloud_license_expiry"				:	"Support Expired On",
+	"form_multitenant_key"					:	"Multi Tenant Key",
+	"form_multitenant_key_expiry"			:	"Support Expired On"
+}

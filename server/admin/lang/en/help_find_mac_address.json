@@ -1,0 +1,19 @@
+{
+    "h_find_mac_title" : "Find Mac Address",
+    "h_find_mac_subtitle" : "Locate MAC address",
+    "h_find_mac_mac_address" : "MAC Address",
+    "h_find_mac_search" : "Search",
+    "h_find_mac_dr_brand" : "Diagnostic Result : Brand & Associated Account",
+    "h_find_mac_last_acc" : "Last Account Used",
+    "h_find_mac_type" : "Type",
+    "h_find_mac_brand" : "Brand",
+    "h_find_mac_model" : "Model",
+    "h_find_mac_operating_system" : "Operating System",
+    "h_find_mac_dr_login" : "Diagnostic Result : Login History",
+    "h_find_mac_no" : "No",
+    "h_find_mac_login_datetime" : "Login Date / Time",
+    "h_find_mac_username" : "Username",
+    "h_find_mac_mac_addr" : "MAC Address",
+    "h_find_mac_ip_addr" : "IP Address"
+    
+}

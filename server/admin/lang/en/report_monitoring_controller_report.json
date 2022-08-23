@@ -1,0 +1,13 @@
+{
+  "monitoring_report_title" : "CONTROLLER REPORT",
+  "monitoring_report_subtitle" : "View information of controller",
+  "monitoring_report_date_search" : "Date Search :",
+  "monitoring_report_to" : "to",
+  "monitoring_report_search" : "Search",
+  "monitoring_report_no" : "No",
+  "monitoring_report_date" : "Report Date",
+  "monitoring_report_total" : "Total",
+  "monitoring_report_running" : "Running",
+  "monitoring_report_count" : "Incident count",
+  "monitoring_report_issue" : "issue"
+} 

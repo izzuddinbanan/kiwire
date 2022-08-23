@@ -1,0 +1,23 @@
+{
+    "integration_social_title" : "Social Network",
+    "integration_social_subtitle" : "Manage social network connection",
+    "integration_social_save" : "Save",
+    "integration_social_guide" : "Guide",
+    "integration_social_enable_fb" : "Enable Facebook Login",
+    "integration_social_fb_page" : "Facebook Page",
+    "integration_social_fb_page_desc" : "Facebook page, eg : https://www.facebook.com/xxxxx it will be xxxxx",
+    "integration_social_enable_twitter" : "Enable Twitter Login",
+    "integration_social_twitter_page" : "Twitter Page",
+    "integration_social_enable_insta" : "Enable Instagram Login",
+    "integration_social_enable_kakao" : "Enable KakaoTalk Login",
+    "integration_social_enable_vk" : "Enable VK Login",
+    "integration_social__enable_line" : "Enable Line Login",
+    "integration_social_enable_zalo" : "Enable Zalo Login",
+    "integration_social_enable_wechat" : "Enable WeChat Login",
+    "integration_social_enable_linkedin" : "Enable LinkedIn Login",
+    "integration_social_link" : "Link With Profile",
+    "integration_social_none" : "None",
+    "integration_social_zone_restriction" : "Zone Restriction",
+    "integration_social_none2" : "None",
+    "integration_social_add_field" : "Additional Fields"
+    }

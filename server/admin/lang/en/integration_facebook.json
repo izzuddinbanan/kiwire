@@ -1,0 +1,13 @@
+{
+    "integration_fb_title" : "Facebook",
+    "integration_db_subtitle" : "Add Facebook Pages for Review",
+    "integration_fb_add" : "Add Facebook Page",
+    "integration_fb_no" : "No",
+    "integration_fb_page_id" : "Page ID",
+    "integration_fb_page_name" : "Page Name",
+    "integration_fb_last_update" : "Last Update",
+    "integration_fb_status" : "Status",
+    "integration_fb_action" : "Action",
+    "integration_fb_loading" : "Loading..."
+    
+    }

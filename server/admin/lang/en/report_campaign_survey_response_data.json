@@ -1,0 +1,14 @@
+{
+  "camp_survey_title" : "SURVEY RESPONSE DATA",
+  "camp_survey_subtitle" : "List of all survey response data",
+  "camp_survey_date_search" : "Date Search :",
+  "camp_survey_to" : "to",
+  "camp_survey_name" : "Survey Name",
+  "camp_survey_no_survey_created" : "No survey has been created",
+  "camp_survey_search" : "Search",
+  "camp_survey_no" : "NO",
+  "camp_survey_date" : "DATE",
+  "camp_survey_username" : "USERNAME",
+  "camp_survey_mac_address" : "MAC ADDRESS",
+  "camp_survey_view_response" : "Please select a survey to view response"
+} 

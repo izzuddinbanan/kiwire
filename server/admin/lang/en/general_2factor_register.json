@@ -1,0 +1,13 @@
+{
+	"title"			:	"2-Factors Registration",
+	"subtitle"		:	"Register 2-factors authentication for Administrator",
+	"msg_1"			:	"Please provide your current password to generate key and QR code to be registered in your Google Authenticator app.",
+	"msg_2"			:	"Once you registered a key, the following login onward, you will be required to provide the 6 digit code generated in Google Authenticator.",
+	"msg_3"			:	"Please take note that every time you refresh this page and provide the password, the key will be updated and previous keys are no longer valid.",
+	"msg_4"			:	"You need to make sure that your Google Authenticator using the latest key.",
+	"msg_5"			:	"For security reason, this page will auto refresh after 60 seconds the key generated.",
+	"btn_confirm"	:	"Confirm",
+	"pls_scan"		:	"Please scan this QR code in your Google Authenticator app.",
+	"your_key"		:	"Your key: ",
+	"download"		:	"You can download Google Authenticator here;"
+}

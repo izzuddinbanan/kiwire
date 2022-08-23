@@ -1,0 +1,9 @@
+28/10 : 00:32 : : Started 
+28/10 : 00:32 : : Total row in kiwire_user v3 [ 11 ] .. 
+28/10 : 00:32 : : Split data into  [ 1 ] block  
+ =============== START ============  
+28/10 : 00:32 : : Voucher issue v3 : [ TESTAPI56512 ] | SESSION: in -  [ 0 ] out - [ 0 ] | AUTH: in - [ 12344 ] out - [ 13232 ].. 
+28/10 : 00:32 : : Voucher issue v3 : [ VOU_62405 ] | SESSION: in -  [ 237698 ] out - [ 246879 ] | AUTH: in - [ 112344 ] out - [ 123455 ].. 
+28/10 : 00:32 : : Voucher issue v3 : [ VOU_62406 ] | SESSION: in -  [ 4089666 ] out - [ 2576435 ] | AUTH: in - [ 4089666 ] out - [ 2576435 ].. 
+28/10 : 00:32 : : End Block  [ 1 / 1 ] - Total row [ 11 ] . Completed .. 
+28/10 : 00:32 : : Voucher issue v3 : [ VOU_62407 ] | SESSION: in -  [ 123456 ] out - [ 546312 ] | AUTH: in - [ 123400 ] out - [ 546300 ].. 

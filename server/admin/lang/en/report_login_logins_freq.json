@@ -1,0 +1,19 @@
+{
+  "login_logins_freq_title" : "LOGIN FREQUENCY",
+  "login_logins_freq_subtitle" : "Information on login frequency & unique login",
+  "login_logins_freq_date_search" : "Date Search :",
+  "login_logins_freq_to" : "to",
+  "login_logins_freq_search" : "Search",
+  "login_logins_freq_no" : "No",
+  "login_logins_freq_date" : "Date",
+  "login_logins_freq_login" : "Total Login",
+  "login_logins_freq_unique_daily" : "Unique Login ( Daily )",
+  "login_logins_freq_unique_forever" : "Unique Login ( Forever )",
+  "login_logins_freq_hourly_view" : "Hourly view",
+  "login_logins_freq_modal_title" : "Login Frequency - Hourly",
+  "login_logins_freq_modal_hour" : "Hour",
+  "login_logins_freq_modal_login" : "Total Login",
+  "login_logins_freq_modal_unique_daily" : "Unique Login ( Daily )",
+  "login_logins_freq_modal_unique_forever" : "Unique Login ( Forever )",
+  "login_logins_freq_modal_close" : "Close"
+} 

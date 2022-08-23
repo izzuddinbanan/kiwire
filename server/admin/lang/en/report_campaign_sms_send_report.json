@@ -1,0 +1,14 @@
+{
+  "camp_sms_report_title" : "SMS SEND REPORT",
+  "camp_sms_report_subtitle" : "Information on SMS send",
+  "camp_sms_report_date_search" : "Date Search :",
+  "camp_sms_report_to" : "to",
+  "camp_sms_report_search" : "Search",
+  "camp_sms_report_sms_sent" : "TOTAL SMS SENT",
+  "camp_sms_report_between_dates" : "BETWEEN THESE 2 DATES",
+  "camp_sms_report_average_sms" : "AVERAGE SMS SENT",
+  "camp_sms_report_hourly_dates" : "HOURLY BETWEEN THESE 2 DATES",
+  "camp_sms_report_no" : "No",
+  "camp_sms_report_date" : "Date",
+  "camp_sms_report_total_sms" : "Total SMS"
+} 

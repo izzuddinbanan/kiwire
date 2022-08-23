@@ -1,0 +1,20 @@
+{
+    "title"							:	"Bulk User Modification",
+	"subtitle"						:	"Edit multiple accounts",
+	"button_select_all"				:	"Select All",
+	"button_clear_all"				:	"Clear All",
+	"button_extend_expiry"			:	"Extend Expiry Date",
+	"button_change_profile"			:	"Change Profile",
+	"button_reset_account"			:	"Reset Account",
+	"button_export"					:	"Export",
+	"button_delete_user"			:	"Delete",
+	"span_select_new_profile"		:	"Select New Profile",
+	"select_profile_option_none"	:	"None",
+	"span_select_date"				:	"Select Date",
+	"table_header_no"				:	"No",
+	"table_header_username"			:	"Username",
+	"table_header_profile"			:	"Profile",
+	"table_header_expiry"			:	"Expiry Date",
+	"table_header_selected"			:	"Selected?",
+	"table_body_loading"			:	"Loading..."
+}

@@ -1,0 +1,49 @@
+[{
+  "name": "Check Account Status",
+  "description": "Check if the status still active.",
+  "function": "check_active"
+},{
+  "name": "Check Zone Limit",
+  "description": "Check the number of active sessions for current zone. If reached limit, then disallow access",
+  "function": "check_zone_limit"
+},{
+  "name": "Check MAC Address",
+  "description": "Check if the device MAC address registered to the account.",
+  "function": "check_allow_mac"
+},{
+  "name": "Register MAC Address",
+  "description": "Auto register MAC address to the account and disallow other device to login using the same account.",
+  "function": "check_register_mac"
+},{
+  "name": "Check Allowable Zone",
+  "description": "Check if the device allow to login using the current zone.",
+  "function": "check_allow_zone"
+},{
+  "name": "Check Account Credit",
+  "description": "Check if the account still have credit to access internet.",
+  "function": "check_allow_credit"
+},{
+  "name": "Check Account Quota",
+  "description": "Check the current quota that has been used, and total allowed quota.",
+  "function": "check_allow_quota"
+},{
+  "name": "Check Simultaneous Use",
+  "description": "Check how many active sessions using the same account. If reached limit, then no more device allow to login.",
+  "function": "check_allow_simultaneous"
+},{
+  "name": "Send to PMS Payment",
+  "description": "Post charges to PMS system if the account login for the first time.",
+  "function": "send_pms_payment"
+},{
+  "name": "Generate Invoice",
+  "description": "Generate invoice once the user perform login for the first time.",
+  "function": "generate_invoice"
+},{
+  "name": "OTP Change Password",
+  "description": "Change password of the user so that the same credential can only login once.",
+  "function": "otp_change_password"
+},{
+  "name": "Check Concurrent User",
+  "description": "Check how many user can login each tenant. If reached limit, then no more device allow to login.",
+  "function": "check_concurrent_user"
+}]

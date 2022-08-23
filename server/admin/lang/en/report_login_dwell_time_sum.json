@@ -1,0 +1,18 @@
+{
+  "login_dwell_sum_title" : "LOGIN DWELL TIME",
+  "login_dwell_sum_subtitle" : "Information on average dwell time of user",
+  "login_dwell_sum_date_search" : "Date Search :",
+  "login_dwell_sum_to" : "to",
+  "login_dwell_sum_search" : "Search",
+  "login_dwell_sum_no" : "No",
+  "login_dwell_sum_date" : "Date",
+  "login_dwell_sum_total_login" : "Total Login",
+  "login_dwell_sum_average_dwell" : "Average Dwell Time ( Hour : Minute : Second )",
+  "login_dwell_sum_detail_view" : "Detail view",
+  "login_dwell_sum_modal_title" : "Login Dwell Time - Detail",
+  "login_dwell_sum_modal_no" : "No",
+  "login_dwell_sum_modal_type" : "Dwell Type",
+  "login_dwell_sum_modal_time" : "Dwell Time",
+  "login_dwell_sum_modal_close" : "Close"
+
+} 

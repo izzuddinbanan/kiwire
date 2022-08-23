@@ -1,0 +1,14 @@
+{
+    "integration_marketing_email_title" : "Marketing Email",
+    "integration_marketing_email_subtitle" : "Manage cloud mail",
+    "integration_marketing_email_save" : "Save",
+    "integration_marketing_email_enable" : "Enable",
+    "integration_marketing_email_mailchimp_key" : "Mailchimp API key",
+    "integration_marketing_email_mailchimp_id" : "Mailchimp List ID",
+    "integration_marketing_email_enter" : "Enter list and find Settings->List name & defaults. Then you will find List ID eg : 306d39834c",
+    "integration_marketing_email_enable2" : "Enable",
+    "integration_marketing_email_madmimi_uname" : "MadMimi Email/Username",
+    "integration_marketing_email_madmimi_key" : "Madmimi API Key",
+    "integration_marketing_email_madmimi_list" : "Madmimi List"
+    
+    }

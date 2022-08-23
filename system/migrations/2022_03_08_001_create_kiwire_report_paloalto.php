@@ -1,0 +1,21 @@
+CREATE TABLE `kiwire_paloalto` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tenant_id` char(120) DEFAULT NULL,
+  `username` char(120) DEFAULT NULL,
+  `date_time` datetime DEFAULT NULL,
+  `san1` char(100) DEFAULT NULL,
+  `level` char(20) DEFAULT NULL,
+  `type` char(100) DEFAULT NULL,
+  `source_ip` char(120) DEFAULT NULL,
+  `dest_ip` char(120) DEFAULT NULL,
+  `inf` char(120) DEFAULT NULL,
+  `service` char(120) DEFAULT NULL,
+  `port` char(20) DEFAULT NULL,
+  `proto` char(120) DEFAULT NULL,
+  `action` char(20) DEFAULT NULL,
+  `host` char(120) DEFAULT NULL,
+  `vuln` char(255) DEFAULT NULL,
+  `severity` char(50) DEFAULT NULL,
+   PRIMARY KEY (`id`),
+   KEY `tenant_id` (`tenant_id`) USING BTREE
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

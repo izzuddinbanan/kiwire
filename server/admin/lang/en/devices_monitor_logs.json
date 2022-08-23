@@ -1,0 +1,14 @@
+{
+	"title"				:	"Monitoring - Logs",
+	"subtitle"			:	"Check logs",
+	"thead_no"			:	"No",
+	"thead_device_id"	:	"Device ID",
+	"thead_status"		:	"Status",
+	"thead_reason"		:	"Reason",
+	"thead_lastcheck"	:	"Last Check",
+	"thead_sysname"		:	"System Name",
+	"thead_cpuload"		:	"CPU Load",
+	"thead_mem_used"	:	"Memory Used",
+	"thead_disk_used"	:	"Disk Used",
+	"tbody_loading"		:	"Loading...",
+}

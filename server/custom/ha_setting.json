@@ -1,0 +1,9 @@
+{
+  "role": "master",
+  "master_ip_address": "",
+  "master_key": "",
+  "backup_ip_address": "",
+  "backup_key": "",
+  "t_interval": "300",
+  "enabled": "n"
+}

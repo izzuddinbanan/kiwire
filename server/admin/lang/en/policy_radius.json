@@ -1,0 +1,20 @@
+{
+    "policy_radius_title" : "Radius Attribute",
+    "policy_radius_subtitle" : "Manage additional radius attribute reply to a profile",
+    "policy_radius_add" : "Add New Radius",
+    "policy_radius_tno" : "NO",
+    "policy_radius_tprofile" : "PROFILE",
+    "policy_radius_tattribute" : "ATTRIBUTE",
+    "policy_radius_tremark" : "REMARK",
+    "policy_radius_taction" : "ACTION",
+    "policy_radius_add_edit" : "Add/Edit Radius",
+    "policy_radius_profile" : "Profile:",
+    "policy_radius_none" : "None",
+    "policy_radius_attribute" : "Attribute:",
+    "policy_radius_value" : "Value:",
+    "policy_radius_remark" : "Remark:",
+    "policy_radius_cancel" : "Cancel",
+    "policy_radius_create" : "Create",
+    "policy_radius_update" : "Update"
+    
+    }

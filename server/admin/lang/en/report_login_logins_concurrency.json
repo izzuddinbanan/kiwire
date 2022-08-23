@@ -1,0 +1,16 @@
+{
+  "login_logins_concurrency_title" : "SESSION CONCURRENCY",
+  "login_logins_concurrency_subtitle" : "Information on session concurrency",
+  "login_logins_concurrency_date_search" : "Date Search :",
+  "login_logins_concurrency_to" : "to",
+  "login_logins_concurrency_search" : "Search",
+  "login_logins_concurrency_no" : "No",
+  "login_logins_concurrency_date" : "Date",
+  "login_logins_concurrency_session" : "Maximum Concurrent Session ( Daily )",
+  "login_logins_concurrency_hourly_view" : "Hourly View",
+  "login_logins_concurrency_modal_title" : "Session Concurrency - Hourly",
+  "login_logins_concurrency_modal_hour" : "Hour",
+  "login_logins_concurrency_modal_session" : "Maximum Concurrent Session ( Hourly )",
+  "login_logins_concurrency_modal_close" : "Close"
+
+} 

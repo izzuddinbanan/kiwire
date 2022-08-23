@@ -1,0 +1,10 @@
+{
+  "monitoring_speed_title" : "CONTROLLER SPEED (VIA SNMP)",
+  "monitoring_speed_subtitle" : "Information on controller speed (via SNMP)",
+  "monitoring_speed_to" : "to",
+  "monitoring_speed_none" : "None",
+  "monitoring_speed_search" : "Search",
+  "monitoring_speed_no" : "No",
+  "monitoring_speed_date" : "Date",
+  "monitoring_speed_speed" : "Speed (MB)"
+} 

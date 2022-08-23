@@ -1,0 +1,19 @@
+{
+  "login_return_accounts_title" : "RETURN ACCOUNT SUMMARY",
+  "login_return_accounts_subtitle" : "Information on new or repeat login",
+  "login_return_accounts_date_search" : "Date Search :",
+  "login_return_accounts_to" : "to",
+  "login_return_accounts_search" : "Search",
+  "login_return_accounts_no" : "No",
+  "login_return_accounts_date" : "Date",
+  "login_return_accounts_login" : "Total Login",
+  "login_return_accounts_return_user" : "Total Return User",
+  "login_return_accounts_new_user" : "New User",
+  "login_return_accounts_hourly_view" : "Hourly view",
+  "login_return_accounts_modal_title" : "Login Summary - Hourly",
+  "login_return_accounts_modal_hour" : "Hour",
+  "login_return_accounts_modal_login" : "Total Login",
+  "login_return_accounts_modal_return_user" : "Return User",
+  "login_return_accounts_modal_new_user" : "New User",
+  "login_return_accounts_modal_close" : "Close"
+} 

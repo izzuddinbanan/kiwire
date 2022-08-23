@@ -1,0 +1,25 @@
+{
+    "policy_firewall_title" : "Firewall",
+    "policy_firewall_subtitle" : "Firewall configuration",
+    "policy_firewall_add" : "Add Firewall Policy",
+    "policy_firewall_tno" : "No",
+    "policy_firewall_tzone" : "Zone",
+    "policy_firewall_thost" : "Host",
+    "policy_firewall_trule" : "Rule",
+    "policy_firewall_tremark" : "Remark",
+    "policy_firewall_taction" : "Action",
+    "policy_firewall_loading" : "Loading...",
+    "policy_firewall_add_edit" : "Add or Edit Firewall Policy",
+    "policy_firewall_nas" : "NAS:",
+    "policy_firewall_host" : "Host/Mac:",
+    "policy_firewall_policy" : "Policy:",
+    "policy_firewall_block_ip" : "Block this IP Address",
+    "policy_firewall_block_mac" : "Block this MAC Address",
+    "policy_firewall_block_tcp_port" : "Block this TCP Port",
+    "policy_firewall_block_udp_port" : "Block this UDP Port",
+    "policy_firewall_remark" : "Remark:",
+    "policy_firewall_cancel" : "Cancel",
+    "policy_firewall_create" : "Create",
+    "policy_firewall_update" : "Update"
+    
+    }

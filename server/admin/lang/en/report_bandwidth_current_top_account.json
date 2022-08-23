@@ -1,0 +1,14 @@
+{
+  "bandwidth_current_top_account_title" : "CURRENT TOP ACCOUNT",
+  "bandwidth_current_top_account_subtitle" : "Information on current top account",
+  "bandwidth_current_top_account_search" : "Search",
+  "bandwidth_current_top_account_no" : "NO",
+  "bandwidth_current_top_account_login" : "Login Time",
+  "bandwidth_current_top_account_username" : "Username",
+  "bandwidth_current_top_account_usage_time" : "Usage Time",
+  "bandwidth_current_top_account_ipaddress" : "IP Address",
+  "bandwidth_current_top_account_mac_address" : "Mac Address",
+  "bandwidth_current_top_account_download" : "Download",
+  "bandwidth_current_top_account_upload" : "Upload",
+  "bandwidth_current_top_account_average_speed" : "Average Speed"
+} 

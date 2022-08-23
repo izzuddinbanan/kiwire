@@ -1,0 +1,10 @@
+{
+  "host" : "",
+  "port" :"",
+  "auth" : "",
+  "user" :"",
+  "password" : "",
+  "from_email" :"",
+  "from_name" : "",
+  "notification": ""
+}

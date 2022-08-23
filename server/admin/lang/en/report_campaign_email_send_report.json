@@ -1,0 +1,14 @@
+{
+  "camp_email_report_title" : "EMAIL SEND REPORT",
+  "camp_email_report_subtitle" : "Information on email send",
+  "camp_email_report_date_search" : "Date Search :",
+  "camp_email_report_to" : "to",
+  "camp_email_report_search" : "Search",
+  "camp_email_report_email_sent" : "TOTAL EMAIL SENT",
+  "camp_email_report_between_dates" : "BETWEEN THESE 2 DATES",
+  "camp_email_report_average_email" : "AVERAGE EMAIL SENT",
+  "camp_email_report_hourly_dates" : "HOURLY BETWEEN THESE 2 DATES",
+  "camp_email_report_no" : "No",
+  "camp_email_report_date" : "Date",
+  "camp_email_report_total_email" : "Total Email"
+} 

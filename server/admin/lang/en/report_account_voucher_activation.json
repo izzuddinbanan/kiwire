@@ -1,0 +1,13 @@
+{
+  "account_voucher_activation_title" : "VOUCHER ACTIVATION",
+  "account_voucher_activation_subtitle" : "View voucher activation",
+  "account_voucher_activation_date_search" : "Date Search :",
+  "account_voucher_activation_to" : "to",
+  "account_voucher_activation_search" : "Search",
+  "account_voucher_activation_no" : "NO",
+  "account_voucher_activation_username" : "USERNAME",
+  "account_voucher_activation_profile" : "PROFILE",
+  "account_voucher_activation_price" : "PRICE (MYR)",
+  "account_voucher_activation_expiration_date" : "EXPIRATION DATE",
+  "account_voucher_activation_activation_date" : "ACTIVATION DATE"
+} 

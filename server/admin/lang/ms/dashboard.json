@@ -1,0 +1,22 @@
+{
+  "dashboard_title": "Papan Dash",
+  "dashboard_subtitle": "Informasi Semasa",
+  "dashboard_chart1": "Page Impression vs Login",
+  "dashboard_current_session": "Current Session",
+  "dashboard_active": "Active",
+  "dashboard_active_label": "Current number of active sessions",
+  "dashboard_connected" : "Connected",
+  "dashboard_connected_label" : "Login performed since",
+  "dashboard_disconnect" : "Disconnect",
+  "dashboard_disconnect_label" : "Disconnected session since",
+  "dashboard_page_impression" : "PAGE IMPRESSION",
+  "dashboard_page_impression_label" : "PAGE VIEWED SINCE",
+  "dashboard_campaign_impression" : "CAMPAIGN IMPRESSION",
+  "dashboard_campaign_impression_label" : "CAMPAIGN VIEWED SINCE",
+  "dashboard_campaign_click" : "CAMPAIGN CLICKED",
+  "dashboard_campaign_click_label" : "CAMPAIGN CLICKED SINCE",
+  "dashboard_login" : "LOGIN",
+  "dashboard_login_label" : "LOGIN SINCE",
+  "dashboard_activity_timeline" : "Activity Timeline",
+  "dashboard_average_dwell" : "Average Dwell For Past 24 Hours"
+}

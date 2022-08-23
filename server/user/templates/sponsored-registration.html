@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{system_name}}: New Account Registration</title>
+</head>
+<body>
+
+<table style="max-width: 900px; font-family: Arial, 'Open Sans', sans-serif;">
+    <tr>
+        <th style="font-size: 18px; font-weight: normal; border-bottom: #a8a8a2 thin solid; text-align: left;">
+            <div style="margin: 10px 0;">
+                NEW ACCOUNT REGISTRATION
+            </div>
+        </th>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px; font-size: 12px; line-height: 1.5;">
+            You received this email since there is an account need to be verified.
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px; padding-bottom: 10px; font-size: 12px; line-height: 1.5;">
+            The account information as per below;
+            <div style="padding: 20px;">
+
+
+                <table style="border: #a8a8a2 thin solid; padding: 10px;">
+
+                    <tr>
+                        <td>Domain</td>
+                        <td>:</td>
+                        <td>{{domain_used}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td>{{username}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Full Name</td>
+                        <td>:</td>
+                        <td>{{fullname}}</td>
+                    </tr>
+
+                    <tr>
+                        <td>Registered Date</td>
+                        <td>:</td>
+                        <td>{{time}}</td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+
+            <div style="padding: 5px 0;">
+                Click on the below button to approve this account.
+            </div>
+
+            <div style="padding: 5px 0; margin: 10px;">
+                <a href="{{verify_path}}" style="background-color: #640064; text-decoration: none; color: white; border: thin solid #640064; padding: 10px;">VERIFY THIS ACCOUNT</a>
+            </div>
+
+            <div style="padding: 5px 0;">
+                Please make sure you are able to access domain [ <span style="font-weight: bolder;">{{domain_used}}</span> ] to verify.
+            </div>
+
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px; font-size: 12px; line-height: 1.5;">
+            {{system_name}}
+            <br>
+            <span>This email was automatically generated.</span>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

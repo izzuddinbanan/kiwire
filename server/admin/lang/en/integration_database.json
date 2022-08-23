@@ -1,0 +1,20 @@
+{
+    "integration_db_title" : "External Database",
+    "integration_db_subtitle" : "Manage connection to external database for user verification",
+    "integration_db_save" : "Save",
+    "integration_db_enable" : "Enable",
+    "integration_db_server" : "Server IP / Domain",
+    "integration_db_port" : "Port Number",
+    "integration_db_username" : "Username",
+    "integration_db_pass" : "Password",
+    "integration_db_name" : "Database Name",
+    "integration_db_query" : "Query",
+    "integration_db_type" : "Database Type",
+    "integration_db_link" : "Link With Profile",
+    "integration_db_none" : "None",
+    "integration_db_zone_restriction" : "Zone Restriction",
+    "integration_db_none2" : "None",
+    "integration_db_validity" : "Validity",
+    "integration_db_days" : "Days"
+    
+    }

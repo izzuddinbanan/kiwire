@@ -1,0 +1,6 @@
+*/1 * * * * /usr/bin/php /var/www/kiwire/system/schedule/kiwire_scheduler.php 2>&1 1>/dev/null
+*/1 * * * * /usr/bin/php /var/www/kiwire/system/schedule/replication_scheduler.php 2>&1 1>/dev/null
+*/1 * * * * /usr/bin/php /var/www/kiwire/system/schedule/service_scheduler.php 2>&1 1>/dev/null
+*/1 * * * * /usr/bin/php /var/www/kiwire/system/schedule/nms_scheduler.php 2>&1 1>/dev/null
+*/1 * * * * /usr/bin/php /var/www/kiwire/system/schedule/statistics_scheduler.php 2>&1 1>/dev/null
+*/30 * * * * /usr/bin/php /var/www/kiwire/system/schedule/reporting_scheduler.php 2>&1 1>/dev/null

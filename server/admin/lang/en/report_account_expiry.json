@@ -1,0 +1,14 @@
+{
+  "account_expiry_title" : "ACCOUNT EXPIRATION",
+  "account_expiry_subtitle" : "View expired accounts",
+  "account_expiry_date_search" : "Date Search :",
+  "account_expiry_to" : "to",
+  "account_expiry_search" : "Search",
+  "account_expiry_no" : "NO",
+  "account_expiry_username" : "USERNAME",
+  "account_expiry_profile" : "PROFILE",
+  "account_expiry_price" : "PRICE (MYR)",
+  "account_expiry_created_date" : "CREATED DATE",
+  "account_expiry_expiration_date" : "EXPIRATION DATE"
+
+} 

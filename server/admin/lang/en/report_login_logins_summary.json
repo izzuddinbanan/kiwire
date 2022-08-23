@@ -1,0 +1,17 @@
+{
+  "login_logins_summary_title" : "LOGIN SUMMARY",
+  "login_logins_summary_subtitle" : "Information on login transaction summary",
+  "login_logins_summary_date_search" : "Date Search :",
+  "login_logins_summary_to" : "to",
+  "login_logins_summary_search" : "Search",
+  "login_logins_summary_no" : "No",
+  "login_logins_summary_date" : "Date",
+  "login_logins_summary_succeed" : "Succeed",
+  "login_logins_summary_failed" : "Failed",
+  "login_logins_summary_hourly_view" : "Hourly view",
+  "login_logins_summary_modal_title" : "Login Summary - Hourly",
+  "login_logins_summary_modal_hour" : "Hour",
+  "login_logins_summary_modal_succeed" : "Succeed",
+  "login_logins_summary_modal_failed" : "Failed",
+  "login_logins_summary_modal_close" : "Close"
+} 

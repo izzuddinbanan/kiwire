@@ -1,0 +1,11 @@
+{
+  "bandwidth_vs_user_title" : "BANDWIDTH VS LOGIN",
+  "bandwidth_vs_user_subtitle" : "Information on average bandwidth usage vs login",
+  "bandwidth_vs_user_date_search" : "Date Search :",
+  "bandwidth_vs_user_to" : "to",
+  "bandwidth_vs_user_search" : "Search",
+  "bandwidth_vs_user_no" : "NO",
+  "bandwidth_vs_user_date" : "DATE",
+  "bandwidth_vs_user_bandwidth" : "BANDWIDTH",
+  "bandwidth_vs_user_login" : "LOGIN"
+} 

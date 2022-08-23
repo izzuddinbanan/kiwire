@@ -1,0 +1,15 @@
+{
+  "bandwidth_account_usage_title" : "ACCOUNT USAGE SUMMARY",
+  "bandwidth_account_usage_subtitle" : "Information how much bandwidth is used by per user",
+  "bandwidth_account_usage_date_search" : "Date Search :",
+  "bandwidth_account_usage_to" : "to",
+  "bandwidth_account_usage_username" : "Username",
+  "bandwidth_account_usage_search" : "Search",
+  "bandwidth_account_usage_no" : "NO",
+  "bandwidth_account_usage_date" : "DATE",
+  "bandwidth_account_usage_download" : "DOWNLOAD",
+  "bandwidth_account_usage_upload" : "UPLOAD",
+  "bandwidth_account_usage_average_download" : "AVERAGE DOWNLOAD",
+  "bandwidth_account_usage_average_upload" : "AVERAGE UPLOAD",
+  "bandwidth_account_usage_proceed" : "Please provide a username to proceed."
+} 

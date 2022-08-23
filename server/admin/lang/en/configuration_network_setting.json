@@ -1,0 +1,12 @@
+{
+	"title"					:	"Network Setting",
+	"subtitle"				:	"Manage your server connection setting",
+	"btn_save"				:	"Save",
+	"span_network_name"		:	"Network Name",
+	"span_hostname"			:	"Hostname",
+	"span_ip_addres"		:	"IP Address",
+	"span_gateway_ip"		:	"Gateway IP Address",
+	"span_dns_1"			:	"DNS Server 1",
+	"span_dns_2"			:	"DNS Server 2",
+	"span_process_note"		:	"* This process might take around a minute to complete."
+}

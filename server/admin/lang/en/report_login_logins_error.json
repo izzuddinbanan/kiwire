@@ -1,0 +1,11 @@
+{
+  "login_logins_error_title" : "LOGIN ERROR",
+  "login_logins_error_subtitle" : "Information error encounter by users",
+  "login_logins_error_date_search" : "Date Search :",
+  "login_logins_error_to" : "to",
+  "login_logins_error_search" : "Search",
+  "login_logins_error_no" : "No",
+  "login_logins_error_date" : "Date",
+  "login_logins_error_msg" : "Error Message",
+  "login_logins_error_count" : "Count"
+} 

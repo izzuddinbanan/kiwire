@@ -1,0 +1,21 @@
+[Unit]
+Description=Kiwire Replication Account
+After=network.target mariadb.service redis.service
+
+[Service]
+Type=simple
+
+WorkingDirectory=/var/www/kiwire/system/daemon
+
+ExecStart=/usr/bin/env php /var/www/kiwire/system/daemon/kiwire_replication_account.php 2>&1 &
+ExecStop=/bin/kill $MAINPID
+ExecReload=/bin/kill -USR1 $MAINPID
+
+Restart=always
+RestartSec=15s
+
+PIDFile=/run/kiwire-replication-account.pid
+
+[Install]
+WantedBy=multi-user.target
+

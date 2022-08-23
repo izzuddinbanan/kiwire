@@ -1,0 +1,21 @@
+{
+  "impression_vs_login_title" : "CAPTIVE PORTAL IMPRESSION VS LOGIN BY ZONE",
+  "impression_vs_login_subtitle" : "Impression summary on captive portal vs user login page by zone",
+  "impression_vs_login_date_search" : "Date Search :",
+  "impression_vs_login_to" : "to",
+  "impression_vs_login_search" : "Search",
+  "impression_vs_login_impression" : "TOTAL IMPRESSION",
+  "impression_vs_login_average_impression" : "AVERAGE IMPRESSION",
+  "impression_vs_login_total_login" : "TOTAL LOGIN",
+  "impression_vs_login_average_login" : "AVERAGE LOGIN",
+  "impression_vs_login_no" : "No",
+  "impression_vs_login_date" : "Date",
+  "impression_vs_login_total_impression" : "Total Impression",
+  "impression_vs_login_login" : "Total Login",
+  "impression_vs_login_hourly_view" : "Hourly View",
+  "impression_vs_login_modal_title" : "Campaign Impression vs Success Login- Hourly",
+  "impression_vs_login_modal_hour" : "Hour",
+  "impression_vs_login_modal_impression" : "Total Impression",
+  "impression_vs_login_modal_login" : "Total Login",
+  "impression_vs_login_modal_close" : "Close"
+} 

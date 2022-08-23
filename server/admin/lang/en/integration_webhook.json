@@ -1,0 +1,23 @@
+{
+    "integration_webhook_title" : "Web Hook",
+    "integration_webhook_subtitle" : "Trigger your web service on event",
+    "btn_add_webhook" : "Add Web Hook",
+    "thead_no" : "No",
+    "thead_name" : "Name",
+    "thead_even" : "Event",
+    "thead_url" : "URL",
+    "thead_enable" : "Enable",
+    "thead_action" : "Action",
+    "tbody_loading" : "Loading...",
+    "integration_webhook_add_edit" : "Add or Edit Web Hook",
+    "integration_webhook_status" : "Status: ",
+    "integration_webhook_name" : "Name: ",
+    "integration_webhook_event" : "Event: ",
+    "integration_webhook_login" : "Login",
+    "integration_webhook_logout" : "Logout",
+    "integration_webhook_url" : "URL: ",
+    "integration_webhook_header" : "Header: ",
+    "integration_webhook_cancel" : "Cancel",
+    "integration_webhook_create" : "Create",
+    "integration_webhook_update" : "Update"
+}

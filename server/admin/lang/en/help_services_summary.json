@@ -1,0 +1,19 @@
+{
+  "help_services_title": "System / Services Status",
+  "help_services_subtitle": "Critical system services health report",
+  "help_services_cpu_load": "CPU LOAD:",
+  "help_services_past_min": "FOR THE PAST 1, 5 AND 15 MINUTES",
+  "help_services_memory": "MEMORY USAGE",
+  "help_services_percentage1": "IN PERCENTAGE",
+  "help_services_disk": "DISK USAGE",
+  "help_services_percentage2": "IN PERCENTAGE",
+  "help_services_last_update": "Last update on",
+  "help_services_status": "Status",
+  "help_services_last_detected": "Last Detected",
+  "help_services_mariadb": "MariaDB",
+  "help_services_nginx": "Nginx",
+  "help_services_php-fpm": "PHP-FPM",
+  "help_services_kiwire_service": "Kiwire Service",
+  "help_services_kiwire_integration": "Kiwire Integration Service",
+  "help_services_replication": "Replication Services [ Backup Server ]"
+}

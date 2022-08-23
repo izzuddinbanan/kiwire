@@ -1,0 +1,89 @@
+[
+    {
+        "field" : "fullname",
+        "variable" : "fullname",
+        "display" : "Fullname",
+        "required" : "No"
+    },{
+        "field" : "email_address",
+        "variable" : "email_address",
+        "display" : "Email",
+        "required" : "No"
+    },{
+        "field" : "phone_number",
+        "variable" : "phone_number",
+        "display" : "Phone Number",
+        "required" : "No"
+    },{
+        "field" : "gender",
+        "variable" : "gender",
+        "display" : "Gender",
+        "required" : "No"
+    },{
+        "field" : "age_group",
+        "variable" : "age_group",
+        "display" : "Age",
+        "required" : "No"
+    },{
+        "field" : "location",
+        "variable" : "location",
+        "display" : "Location",
+        "required" : "No"
+    },{
+        "field" : "birthday",
+        "variable" : "birthday",
+        "display" : "Birthday",
+        "required" : "No"
+    },{
+        "field" : "field1",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field2",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field3",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field4",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field5",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field6",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field7",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field8",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field9",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    },{
+        "field" : "field10",
+        "variable" : "[empty]",
+        "display" : "[empty]",
+        "required" : "No"
+    }
+    
+]

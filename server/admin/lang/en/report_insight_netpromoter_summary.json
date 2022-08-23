@@ -1,0 +1,17 @@
+{
+  "insight_netpromoter_title" : "NET PROMOTER SUMMARY",
+  "insight_netpromoter_subtitle" : "Information on net promoter scoring",
+  "insight_netpromoter_date_search" : "Date Search :",
+  "insight_netpromoter_to" : "to",
+  "insight_netpromoter_search" : "Search",
+  "insight_netpromoter_positive_feedback" : "Total Positive Feedback",
+  "insight_netpromoter_negative_feedback" : "Total Negative Feedback",
+  "insight_netpromoter_piechart" : "Positive / Negative Feedback Percentage",
+  "insight_netpromoter_no" : "No",
+  "insight_netpromoter_username" : "Username",
+  "insight_netpromoter_score" : "Score",
+  "insight_netpromoter_sentiment" : "Sentiment",
+  "insight_netpromoter_comment" : "Comment",
+  "insight_netpromoter_date" : "Date",
+  "insight_netpromoter_magnitude" : "Magnitude"
+} 

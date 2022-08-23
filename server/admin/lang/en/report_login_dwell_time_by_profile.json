@@ -1,0 +1,19 @@
+{
+  "login_dwell_profile_title" : "DWELL TIME BY PROFILE",
+  "login_dwell_profile_subtitle" : "Information on average dwell time of user by profile",
+  "login_dwell_profile_date_search" : "Date Search :",
+  "login_dwell_profile_to" : "to",
+  "login_dwell_profile_none" : "None",
+  "login_dwell_profile_search" : "Search",
+  "login_dwell_profile_no" : "No",
+  "login_dwell_profile_date" : "Date",
+  "login_dwell_profile_profile_name" : "Profile name",
+  "login_dwell_profile_average_dwell" : "Average Dwell Time ( Hour : Minute : Second )",
+  "login_dwell_profile_detail_view" : "Detail view",
+  "login_dwell_profile_modal_title" : "Login Dwell Time By Profile - Hourly",
+  "login_dwell_profile_modal_hour" : "Hour",
+  "login_dwell_profile_modal_profile_name" : "Profile Name",
+  "login_dwell_profile_modal_average_dwell" : "Average Dwell Time ( Hour : Minute : Second )",
+  "login_dwell_profile_modal_close" : "Close"
+
+} 

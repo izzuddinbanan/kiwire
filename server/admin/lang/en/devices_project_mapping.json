@@ -1,0 +1,13 @@
+{
+	"title"	:"Project Mapping",
+	"subtitle"	:"Manage project based on zones",
+	"btn_add_project"	:"Add Project",
+	"thead_no"	:"No",
+	"thead_name"	:"Project Name",
+	"thead_action"	:"Action",
+	"modal_1_title"	:"Add or Edit Project",
+	"modal_1_name"	:"Project Name: ",
+	"modal_1_permission"	:"Permission Control: ",
+	"modal_1_footer_btn_cancel"	:"Cancel",
+	"modal_1_footer_btn_create"	:"Create"
+}

@@ -1,0 +1,18 @@
+{
+	"title"							:	"High Availability",
+	"subtitle"						:	"Configure high availability",
+	"btn_save"						:	"Save",
+	"form_enable"					:	"Enable",
+	"form_server_role"				:	"This Server Role",
+	"form_server_role_master"		:	"Main",
+	"form_server_role_slave"		:	"Backup",
+	"form_master_IP"				:	"Main IP Address",
+	"form_master_key"				:	"Main Keys",
+	"form_backup_ip"				:	"Backup IP Address",
+	"form_backup_key"				:	"Backup Keys",
+	"form_time_interval"			:	"Time Interval",
+	"form_time_interval_label"		:	"Minutes (Minimum 10)",
+	"form_btn_generate_key"			:	"Generate Key",
+	"form_btn_revoke_key"			:	"Revoke Key",
+	"form_btn_reset_server"			: 	"Reset Server"
+}

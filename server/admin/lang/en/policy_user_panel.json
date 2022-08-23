@@ -1,0 +1,13 @@
+{
+    "policy_user_panel_title" : "User Panel",
+    "policy_user_panel_subtitle" : "User self-manage account site",
+    "policy_user_panel_save" : "Save",
+    "policy_user_panel_enable" : "Page Enable",
+    "policy_user_panel_dashboard" : "Dashboard",
+    "policy_user_panel_profile" : "Profile",
+    "policy_user_panel_usage" : "Usage / Statistics",
+    "policy_user_panel_history" : "History",
+    "policy_user_panel_recharge" : "Topup",
+    "policy_user_panel_register_device" : "Register Device"
+    
+    }

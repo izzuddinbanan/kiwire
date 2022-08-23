@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZOOM Image</title>
+
+    <style>
+
+        .large-image {
+            display: none;
+            position: fixed;
+            margin: auto;
+            padding: 0;
+            overflow: auto;
+            border: white thin solid;
+            width: 100%;
+            min-height: 350px;
+        }
+
+        .large-image-src {
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<button class="trigger-image">test</button>
+
+<div class="large-image">
+    <img class="large-image-src" src="http://synchroweb.ddns.net:7080/custom/default/VISUAL_05_16.png">
+</div>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function (){
+
+        let image_space = $(".large-image");
+
+        image_space.height($(window).height() + "px");
+        image_space.width($(window).width() + "px");
+
+        image_space.css("top", "0px");
+        image_space.css("left", "0px");
+
+
+        image_space.on("click", function (){
+
+            $(this).css("display", "none");
+
+        });
+
+
+        $(".trigger-image").on("click", function (){
+
+
+            let image_space = $(".large-image");
+
+            image_space.css("display", "block");
+
+
+            let image_src =  $(".large-image-src");
+
+            let image_height = image_src.height();
+            let image_width = image_src.width();
+
+            let window_height = $(window).height();
+            let window_width = $(window).width();
+
+            let to_top = parseInt((image_height / 2) - (window_height / 2));
+            let to_left = parseInt((image_width / 2) - (window_width / 2));
+
+            console.log(image_height);
+
+            image_space.animate({ scrollTop: to_top, scrollLeft: to_left }, 2000);
+
+
+        });
+
+
+    });
+
+</script>
+
+</html>

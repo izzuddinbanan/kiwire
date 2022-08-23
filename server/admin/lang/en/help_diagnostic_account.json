@@ -1,0 +1,9 @@
+{
+	"title"				:	"Diagnostic User Account",
+	"subtitle"			:	"Perform user account diagnostic",
+	"form_username"		:	"Username / Voucher",
+	"form_pass"			:	"Password",
+	"form_check"		:	"Check Account",
+	"result"			:	"Diagnostic Result",
+	"provide_username"	:	"Please provide a username and click [Check Account] to start diagnose"
+}

@@ -1,0 +1,23 @@
+{
+  "camp_click_title" : "CAMPAIGN CLICK SUMMARY",
+  "camp_click_subtitle" : "Campaign click summary",
+  "camp_click_date_search" : "Date Search :",
+  "camp_click_to" : "to",
+  "camp_click_search" : "Search",
+  "camp_click_no" : "NO",
+  "camp_click_name" : "CAMPAIGN NAME",
+  "camp_click_start_date" : "START DATE",
+  "camp_click_end_date" : "END DATE",
+  "camp_click_trigger" : "TRIGGER",
+  "camp_click_target" : "TARGET",
+  "camp_click_source" : "SOURCE",
+  "camp_click_click_thru" : "TOTAL CLICK THRU",
+  "camp_click_unique_click" : "TOTAL UNIQUE CLICK",
+  "camp_click_status" : "STATUS",
+  "camp_click_action" : "ACTION",
+  "camp_click_modal_title" : "Campaign Hourly View",
+  "camp_click_modal_date" : "Date",
+  "camp_click_modal_clicked" : "Clicked",
+  "camp_click_modal_unique_clicked" : "Unique Clicked",
+  "camp_click_modal_close" : "Close"
+} 

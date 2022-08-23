@@ -1,0 +1,11 @@
+{
+  "bandwidth_overall_usage_title" : "BANDWIDTH USAGE",
+  "bandwidth_overall_usage_subtitle" : "Information of overall bandwidth usage by your network",
+  "bandwidth_overall_usage_date_search" : "Date Search :",
+  "bandwidth_overall_usage_to" : "to",
+  "bandwidth_overall_usage_search" : "Search",
+  "bandwidth_overall_usage_no" : "NO",
+  "bandwidth_overall_usage_date" : "DATE",
+  "bandwidth_overall_usage_download" : "DOWNLOAD",
+  "bandwidth_overall_usage_upload" : "UPLOAD"
+} 

@@ -1,0 +1,17 @@
+{
+  "insight_deviceinfo_title" : "DEVICES TYPE SUMMARY",
+  "insight_deviceinfo_subtitle" : "Information on users device connecting to your network",
+  "insight_deviceinfo_date_search" : "Date Search :",
+  "insight_deviceinfo_to" : "to",
+  "insight_deviceinfo_search" : "Search",
+  "insight_deviceinfo_piechart1" : "Device Types",
+  "insight_deviceinfo_piechart2" : "Device Brands",
+  "insight_deviceinfo_table" : "Device Type Connecting to Network",
+  "insight_deviceinfo_no" : "No",
+  "insight_deviceinfo_type_device" : "Type of Device",
+  "insight_deviceinfo_total" : "Total",
+  "insight_deviceinfo_table2" : "Device Brand Connecting to Network",
+  "insight_deviceinfo_t2_no" : "No",
+  "insight_deviceinfo_t2_brand" : "Brand",
+  "insight_deviceinfo_t2_total" : "Total"
+} 

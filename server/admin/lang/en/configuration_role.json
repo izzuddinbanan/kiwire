@@ -1,0 +1,16 @@
+{
+	"title"									:	"Role",
+	"subtitle"								:	"Manage role for administrator",
+	"btn_add_role"							:	"Add Role",
+	"thead_no"								:	"no",
+	"thead_role"							:	"role",
+	"thead_action"							:	"action",
+	"tbody_loading"							:	"Loading..",
+	"modal_1_title"							:	"Add or Edit Role",
+	"modal_1_role_name"						:	"Role Name:",
+	"modal_1_allow_access"					:	"Allow Access:",
+	"modal_1_btn_select_all"				:	"Select All",
+	"modal_1_btn_clear_all"					:	"Clear All",
+	"modal_1_footer_btn_cancel"				:	"Cancel",
+	"modal_1_footer_btn_create"				:	"Create"
+}

@@ -1,0 +1,22 @@
+{
+  "camp_coupon_impression_title" : "COUPON IMPRESSION SUMMARY",
+  "camp_coupon_impression_subtitle" : "Total number of impression for each coupon",
+  "camp_coupon_impression_date_search" : "Date Search :",
+  "camp_coupon_impression_to" : "to",
+  "camp_coupon_impression_search" : "Search",
+  "camp_coupon_impression_select_coupon" : "Select Coupon",
+  "camp_coupon_impression_total_unique_impression" : "TOTAL UNIQUE IMPRESSION",
+  "camp_coupon_impression_average_unique_impression" : "AVERAGE UNIQUE IMPRESSION",
+  "camp_coupon_impression_total_impression" : "TOTAL IMPRESSION",
+  "camp_coupon_impression_average_impression" : "AVERAGE IMPRESSION",
+  "camp_coupon_impression_total_table_no" : "No",
+  "camp_coupon_impression_total_table_date" : "Date",
+  "camp_coupon_impression_total_table_unique_impression" : "Unique Impression",
+  "camp_coupon_impression_total_table_total_impression" : "Total Impression",
+  "camp_coupon_impression_total_table_hourly_view" : "Hourly View",
+  "camp_coupon_impression_modal_title" : "Campaign Impression Summary - Hourly",
+  "camp_coupon_impression_modal_hour" : "Hour",
+  "camp_coupon_impression_modal_unique_impression" : "Unique Impression",
+  "camp_coupon_impression_modal_total_impression" : "Total Impression",
+  "camp_coupon_impression_modal_close" : "Close"
+} 

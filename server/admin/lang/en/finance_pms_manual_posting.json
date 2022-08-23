@@ -1,0 +1,12 @@
+{
+	"title"					:	"Manual Posting",
+	"subtitle"				:	"Post charges manualy to room or User ID",
+	"btn_save"				:	"Save",
+	"integration"			:	"Post To Integration",
+	"integration_opt_pms"	:	"PMS",
+	"post_to"				:	"Post to",
+	"span_or"				:	"or",
+	"post_to_opt_sel_one"	:	"-- SELECT ONE --",
+	"charge_amount"			:	"Charge Amount",
+	"remark"				:	"Remark"
+}

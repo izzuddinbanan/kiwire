@@ -1,0 +1,274 @@
+<?php
+
+$kiw['module'] = "Report -> Monitoring -> Controller Bandwidth";
+$kiw['name'] = basename($_SERVER['SCRIPT_NAME'], ".php");
+$kiw['version'] = 1;
+$kiw['custom'] = false;
+
+require_once 'includes/include_config.php';
+require_once 'includes/include_session.php';
+require_once 'includes/include_general.php';
+require_once 'includes/include_header.php';
+require_once 'includes/include_nav.php';
+require_once 'includes/include_access.php';
+require_once "includes/include_connection.php";
+require_once "includes/include_report.php";
+
+$kiw_db = Database::obtain();
+
+
+?>
+
+
+<script src="/app-assets/vendors/js/charts/apexcharts.min.js"></script>
+
+<div class="content-wrapper">
+
+    <div class="content-header row">
+        <div class="content-header-left col-12 mb-2">
+            <div class="row breadcrumbs-top">
+                <div class="col-12">
+                    <h2 class="content-header-title float-left mb-0 text-uppercase" data-i18n="monitoring_bandwidth_title">Controller Bandwidth (via SNMP)</h2>
+                    <div class="breadcrumb-wrapper">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" data-i18n="monitoring_bandwidth_subtitle">
+                                Information on controller bandwidth (via SNMP)
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row">
+        <div class="col-12 mb-1">
+            <button id="filter-btn" class="float-right btn btn-icon btn-primary btn-xs fa fa-filter"></button>
+        </div>
+    </div> -->
+
+    <div class="content-body">
+
+        <section id="css-classes" class="card">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <h6 class="text-bold-500" data-i18n="report_account_expiry_search">Filter :</h6>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <div class="form-group" style="position:relative; left:auto; display:block;">
+                                    <label for="startdate" data-i18n="data_from">Date From</label>
+                                    <input type="text" class="form-control format-picker" name="startdate" id="startdate" value='<?= report_date_view(report_date_start("", 2)) ?>'>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group" style="position:relative; left:auto; display:block;">
+                                    <label for="enddate" data-i18n="data_until">Date Until</label>
+                                    <input type="text" class="form-control format-picker" name="enddate" id="enddate" value='<?= report_date_view(report_date_start("", 1)) ?>'>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label data-i18n="monitoring_bandwidth_modal_date_controller">Controller</label>
+                                    <select name="controller" id="controller" class="select2 form-control" data-style="btn-default">
+                                        <option value="none" data-i18n="monitoring_bandwidth_none">None</option>
+                                        <?php
+
+                                        $kiw_controllers = $kiw_db->fetch_array("SELECT unique_id FROM kiwire_controller WHERE tenant_id = '{$_SESSION['tenant_id']}' AND monitor_method = 'snmp'");
+
+                                        foreach ($kiw_controllers as $kiw_controller) {
+
+                                            echo "<option value='{$kiw_controller['unique_id']}'>{$kiw_controller['unique_id']}</option>\n";
+                                        }
+
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="submit" name='search' id='search' class="btn btn-primary waves-effect waves-light btn-search" data-i18n="bandwidth_account_usage_search">Search</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="report_graph" class="card">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-content">
+                        <div class="card-body">
+                            <div id="data-chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="report_table" class="card">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-data">
+
+                                <thead>
+                                    <tr class="text-uppercase">
+                                        <th data-i18n="monitoring_bandwidth_no">No</th>
+                                        <th data-i18n="monitoring_bandwidth_date">Date</th>
+                                        <th><span data-i18n="monitoring_bandwidth_upload">Total Upload</span> ( <?= $_SESSION['metrics'] ?> )</th>
+                                        <th><span data-i18n="monitoring_bandwidth_download">Total Download</span> ( <?= $_SESSION['metrics'] ?> )</th>
+                                        <th><span data-i18n="monitoring_bandwidth_average_bandwidth">Average Bandwidth</span> ( <?= $_SESSION['metrics'] ?>ps )</th>
+                                        <th data-i18n="monitoring_bandwidth_hourly_view">Hourly View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="6" style="text-align: center;" data-i18n="monitoring_bandwidth_select">Please select a controller to view data</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+<div class="modal fade text-left" id="view-detail" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel16" data-i18n="monitoring_bandwidth_modal_title">Login Frequency - Hourly</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body" style="overflow: auto;">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div id="detail-chart" style="min-height: 500px;"></div>
+                    </div>
+                </div>
+
+                <table class="table table-bordered table-detail">
+                    <thead class="thead thead-light">
+                        <tr>
+                            <th data-i18n="monitoring_bandwidth_modal_no">No</th>
+                            <th data-i18n="monitoring_bandwidth_modal_hour">Hour</th>
+                            <th><span data-i18n="monitoring_bandwidth_modal_upload">Total Upload</span> ( <?= $_SESSION['metrics'] ?> )</th>
+                            <th><span data-i18n="monitoring_bandwidth_modal_download">Total Download</span> ( <?= $_SESSION['metrics'] ?> )</th>
+                            <th><span data-i18n="monitoring_bandwidth_modal_average_bandwidth">Average Bandwidth</span> ( <?= $_SESSION['metrics'] ?>ps )</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-danger waves-effect waves-light" data-dismiss="modal" data-i18n="monitoring_bandwidth_modal_close">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- <div class="modal fade text-left" id="filter_modal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title" id="mythememodal">Filter</h4>
+                <button type="button" class="close cancel-button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+
+                        <div class="card-content">
+                            <div class="card-body">
+
+                                <form class="form form-vertical">
+                                    <div class="form-body">
+                                        <div class="row">
+
+                                            <div class="col-12">
+
+                                                <div class="form-group" style="position:relative; left:auto; display:block;">
+                                                    <label data-i18n="monitoring_bandwidth_modal_date_from">Date From</label>
+                                                    <input type="text" class="form-control format-picker" name="startdate" id="startdate" value='<!-?= report_date_view(report_date_start("", 2)) ?>'>
+                                                </div>
+
+                                                <div class="form-group" style="position:relative; left:auto; display:block;">
+                                                    <label data-i18n="monitoring_bandwidth_modal_date_until">Date Until</label>
+                                                    <input type="text" class="form-control format-picker" name="enddate" id="enddate" value='<!?= report_date_view(report_date_start("", 1)) ?>'>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label data-i18n="monitoring_bandwidth_modal_date_controller">Controller</label>
+                                                    <select name="controller" id="controller" class="select2 form-control" data-style="btn-default">
+                                                        <option value="none" data-i18n="monitoring_bandwidth_none">None</option>
+                                                        <!-?php
+
+                                                        $kiw_controllers = $kiw_db->fetch_array("SELECT unique_id FROM kiwire_controller WHERE tenant_id = '{$_SESSION['tenant_id']}' AND monitor_method = 'snmp'");
+
+                                                        foreach ($kiw_controllers as $kiw_controller) {
+
+                                                            echo "<option value='{$kiw_controller['unique_id']}'>{$kiw_controller['unique_id']}</option>\n";
+                                                        }
+
+                                                        ?>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <button type="button" id="filter-data" class="btn btn-primary round mr-1 mb-1 waves-effect waves-light pull-right" data-i18n="monitoring_bandwidth_modal_date_filter">Filter</button>
+                                                    <button type="reset" class="btn btn-danger round mr-1 mb-1 waves-effect waves-light pull-right" data-dismiss="modal" data-i18n="monitoring_bandwidth_modal_date_cancel">Cancel</button>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+
+
+<?php
+
+require_once "includes/include_footer.php";
+require_once "includes/include_report_footer.php";
+require_once "includes/include_datatable.php";
+
+?>

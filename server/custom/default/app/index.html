@@ -1,0 +1,38 @@
+<html>
+    
+<!-- Mirrored from myts01.twilas.com/WILAS_IPC/auto_open/autoopen.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Aug 2021 07:03:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+    <body>
+        <h4>Redirecting...</h4>
+    </body>
+    <script>
+        function openApp(){
+            console.log("opening"); 
+            if(!(navigator.userAgent.match(/SAMSUNG|SGH-[I|N|T]|GT-[I|P|N]|SM-[N|P|T|Z|G]|SHV-E|SCH-[I|J|R|S]|SPH-L/i))){
+                location.href="ipcapp://open";
+                            console.log("opening IOS");
+                setTimeout(function() {  
+
+                    if ((window.navigator.userAgent.indexOf('iPhone') != -1 )){
+            console.log("ios -1");
+                        window.location = "http://bdj.bz/IPCappIOS";
+                    }else{
+            console.log("android");
+                        window.location = "http://bdj.bz/IPCappAndroid";
+                    }
+
+
+                    }, 500);
+                console.log("openApp opening");
+            }
+        }
+        openApp();
+    </script>
+
+<!-- Mirrored from myts01.twilas.com/WILAS_IPC/auto_open/autoopen.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Aug 2021 07:03:15 GMT -->
+</html>

@@ -1,0 +1,277 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        body {margin:20px 20px 0;overflow-x:hidden;overflow-y:auto;font-family:sans-serif}
+        .container {}
+        .container > div {text-align:center;font-size:24px;cursor:pointer;margin: 0;display:inline-block;float:left;width:25%;height:80px;line-height:80px;border:#eee 1px solid;box-sizing:border-box;}
+        .clearfix:before, .clearfix:after {content: " ";display: table;}
+        .clearfix:after {clear: both;}
+        .clearfix {*zoom: 1;}
+        
+        .inptext {width:90%;letter-spacing:1px;border:none;padding:10px;border:rgba(127, 127, 127, 0.32) 1px solid;}
+        button {
+            width: 55px;
+            line-height: 1;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            background-color: #fff;
+            color: #4a4a4a;
+            border: 1px solid transparent;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            border-radius: 0;
+            transition: all ease 0.3s           
+            }
+        .inptext:focus {outline:none}
+        button:focus {outline:none;}
+        
+        button.classic-primary {
+            display: inline-block;
+            width: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            min-width: 135px;
+            background: #f7f7f7;
+        }
+        button.classic-secondary {
+            display: inline-block;
+            width: auto;
+            height: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+
+
+<div style="display:flex;justify-content:space-between;">
+    <button data-image-for="background-sm" class="classic-primary background-btn" style="border:rgba(127, 127, 127, 0.32) 1px solid;width:300px;">Small Screen</button>
+    <input class="inptext" id="background-sm" type="text" style="width:100%;" value="" disabled />
+</div>
+
+<br>
+
+<div style="display:flex;justify-content:space-between;">
+    <button data-image-for="background-md" class="classic-primary background-btn" style="border:rgba(127, 127, 127, 0.32) 1px solid;width:300px;">Medium Screen</button>
+    <input class="inptext" id="background-md" type="text" style="width:100%;" value="" disabled />
+</div>
+
+<br>
+
+<div style="display:flex;justify-content:space-between;">
+    <button data-image-for="background-lg" class="classic-primary background-btn" style="border:rgba(127, 127, 127, 0.32) 1px solid;width:300px;">Large Screen</button>
+    <input class="inptext" id="background-lg" type="text" style="width:100%;" value="" disabled />
+</div>
+
+<br>
+
+<div style="display:flex;justify-content:space-between;">
+    <input class="inptext background-css" type="text" style="width:100%;" value="" placeholder="CSS to use, seperated by comma" />
+</div>
+
+
+<form class="upload-background" action="#" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="background-sm" style="display: none;">
+    <input type="file" name="background-md" style="display: none;">
+    <input type="file" name="background-lg" style="display: none;">
+    <input type="text" name="css-value" style="display: none;">
+
+    <div style="display:flex;justify-content:space-between;margin:17px 0;">
+
+        <button type="submit" class="classic-primary" style="border:rgba(127, 127, 127, 0.32) 1px solid;width:130px;height: 40px;">Upload</button>
+        <button type="button" class="classic-primary background-rem" style="border:rgba(127, 127, 127, 0.32) 1px solid;width:200px;height: 40px;">Remove Background</button>
+
+    </div>
+
+</form>
+
+
+<script src="/app-assets/vendors/js/vendors.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+
+        $(".background-css").on("change", function () {
+
+            $("input[name=css-value]").val($(this).val());
+
+        });
+
+
+        $(".background-rem").on("click", function () {
+
+            let data_page = parent.current_page;
+
+            if (data_page.length){
+
+                $.ajax({
+                    url: "/admin/designer/backgroundremover.php",
+                    method: "post",
+                    data: {
+                        page: data_page
+                    },
+                    success: function (response) {
+
+                        if (response['status'] === "success") {
+
+
+                            $("body", window.parent.document).css("background-image", "");
+
+                            $(".bg_sm", window.parent.document).val("");
+                            $(".bg_md", window.parent.document).val("");
+                            $(".bg_lg", window.parent.document).val("");
+                            $(".bg_css", window.parent.document).val("");
+
+                            window.alert("Your background has been deleted. To see an updated page, please save and reload this page.");
+
+
+                        } else {
+
+                            window.alert("There is an error. Please try again.");
+
+                        }
+
+                    },
+                    error: function (response) {
+
+                        window.alert("There is an error. Please try again.");
+
+                    }
+                });
+
+            }
+
+        });
+
+
+        $(".background-btn").on("click", function () {
+
+            let data_for = $(this).data("image-for");
+
+            if (data_for.length){
+
+                let data_input =  $("input[name=" + data_for + "]");
+                data_input.click();
+
+                data_input.on("change", function () {
+
+                    let data_path = $(this).val();
+                    data_path = data_path.split("\\");
+
+                    $("#" + data_for).val(data_path[2]);
+
+                });
+
+            }
+
+        });
+
+
+        $(".upload-background").on("submit", function (e) {
+
+            e.preventDefault();
+
+            let form_data = new FormData($("form")[0]);
+
+            $.ajax({
+                url: "/admin/designer/backgroundchanger.php",
+                method: "post",
+                enctype: 'multipart/form-data',
+                processData: false,
+                cache: false,
+                contentType: false,
+                timeout: 20000,
+                data : form_data,
+                success: function (respond) {
+
+                    if (respond['status'] === "success") {
+
+                        let current_path = "";
+
+                        if (respond['path']['background-lg'] !== undefined) current_path = respond['path']['background-lg'];
+                        else if (respond['path']['background-md'] !== undefined) current_path = respond['path']['background-md'];
+                        else if (respond['path']['background-sm'] !== undefined) current_path = respond['path']['background-sm'];
+
+
+                        $("body", window.parent.document).css("background-image", "url('" + current_path + "')");
+
+                        $(".bg_sm", window.parent.document).val(respond['path']['background-sm']);
+                        $(".bg_md", window.parent.document).val(respond['path']['background-md']);
+                        $(".bg_lg", window.parent.document).val(respond['path']['background-lg']);
+
+
+                        let background_attr = $("input[name=css-value]").val();
+
+                        $(".bg_css", window.parent.document).val(background_attr);
+
+
+                        if (background_attr.length) {
+
+                            background_attr = background_attr.split(";");
+
+                            for (i = 0; i < background_attr.length; i++) {
+
+
+                                if (background_attr[i] !== "") {
+
+
+                                    let background_attr_detail = background_attr[i].split(":");
+
+                                    if (background_attr_detail.length > 0) {
+
+                                        $("body", window.parent.document).css(background_attr_detail[0].trim(), background_attr_detail[1].trim());
+
+                                    }
+
+
+                                }
+
+                            }
+
+                        }
+
+
+                        $(".is-modal.backgroundchanger", window.parent.document).find(".is-modal-close").click();
+
+                        window.alert("Your background has been uploaded. Please save this page.");
+
+
+                    } else {
+
+                        window.alert(respond['path']);
+
+                    }
+
+
+                },
+                "error": function () {
+
+                    window.alert("There is an error. Please try again.");
+
+                }
+
+            });
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>

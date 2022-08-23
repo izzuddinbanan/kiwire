@@ -1,0 +1,19 @@
+{
+    "policy_wallgarden_title" : "Wallgarden",
+    "policy_wallgarden_subtitle" : "Whitelist / wallgarden",
+    "policy_wallgarden_add" : "Add New Wallgarden Policy",
+    "policy_wallgarden_ttno" : "NO",
+    "policy_wallgarden_tnas" : "NAS",
+    "policy_wallgarden_tdestination" : "DESTINATION",
+    "policy_wallgarden_tremark" : "REMARK",
+    "policy_wallgarden_taction" : "ACTION",
+    "policy_wallgarden_add_edit" : "Add/Edit Wallgarden",
+    "policy_wallgarden_nas" : "Nas:",
+    "policy_wallgarden_nas_all" : "All",
+    "policy_wallgarden_destination" : "Destination domain/ip:",
+    "policy_wallgarden_remark" : "Remark:",
+    "policy_wallgarden_cancel" : "Cancel",
+    "policy_wallgarden_create" : "Create",
+    "policy_wallgarden_update" : "Update"
+    
+    }

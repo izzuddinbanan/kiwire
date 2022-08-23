@@ -1,0 +1,193 @@
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #000 }  /* plain text */
+.operative { margin: 0 -6px; padding: 2px 5px; border: 1px solid blue; }
+
+@media screen {
+  .str { color: #080 }  /* string content */
+  .kwd { color: #008 }  /* a keyword */
+  .com { color: #999; font-style: italic }  /* a comment */
+  .typ { color: #606 }  /* a type name */
+  .lit { color: #2269D5 }  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo { color: #660 }
+  .tag { color: #008 }  /* a markup tag name */
+  .atn { color: #606 }  /* a markup attribute name */
+  .atv { color: #080 }  /* a markup attribute value */
+  .dec, .var { color: #606 }  /* a declaration; a variable name */
+  .fun { color: red }  /* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str { color: #060 }
+  .kwd { color: #006; font-weight: bold }
+  .com { color: #600; font-style: italic }
+  .typ { color: #404; font-weight: bold }
+  .lit { color: #044 }
+  .pun, .opn, .clo { color: #440 }
+  .tag { color: #006; font-weight: bold }
+  .atn { color: #404 }
+  .atv { color: #060 }
+}
+
+.prettyprint {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+
+/* ------ START OF THEME ------ */
+
+/*
+ * Github
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-github {
+  background-color: #FCFCFC;
+  padding: 1.4em 2em;
+  font-size: 12px;
+  color: #555555;
+}
+
+pre.theme-github code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-github .pln {
+  color: #555555;
+}
+
+pre.theme-github .str {
+  color: #DD1144;
+}
+pre.theme-github .kwd {
+  color: #445588;
+}
+pre.theme-github .com {
+  color: #b8b6b1;
+}
+pre.theme-github .typ {
+  color: #008080;
+}
+pre.theme-github .lit {
+  color: #DD1144;
+}
+pre.theme-github .pun,
+pre.theme-github .opn,
+pre.theme-github .clo {
+  color: #555555;
+}
+pre.theme-github .tag {
+  color: #445588;
+}
+pre.theme-github .atn {
+  color: #008080;
+}
+pre.theme-github .atv {
+  color: #DD1144;
+}
+pre.theme-github .dec,
+pre.theme-github .var {
+  color: #DD1144;
+}
+pre.theme-github .fun {
+  color: #445588;
+}
+
+pre.theme-github.linenums {
+  padding: .8em 3em;
+}
+/* Specify class=linenums on a pre to get line numbering */
+pre.theme-github ol.linenums {
+  margin: 0 0 0 15px; /* IE indents via margin-left */
+  padding: 0;
+}
+pre.theme-github ol.linenums li {
+  color: #555555;
+  padding-left: 30px;
+}
+pre.theme-github.prettyprint.linenums {
+	-webkit-box-shadow: inset 60px 0 0 #eeeeee;
+	-moz-box-shadow: inset 60px 0 0 #eeeeee;
+	box-shadow: inset 60px 0 0 #eeeeee;
+	border: 0;
+}
+
+pre.theme-github .operative { margin-left: -6px; padding: 1px 5px; border: 1px solid #2E6FD9; }
+
+
+/* ------- END OF THEME ------- */
+
+/* ------ START OF THEME ------ */
+
+/*
+ * Snappy Light
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2014 Dayle Rees
+ */
+
+pre.theme-snappy-light {
+  background-color: #ffffff;
+  padding: 2em;
+  font-size:.7em;
+  color: #555555;
+}
+
+pre.theme-snappy-light code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-snappy-light .pln {
+  color: #555555;
+}
+
+pre.theme-snappy-light .str {
+  color: #4ea1df;
+}
+pre.theme-snappy-light .kwd {
+  color: #4ea1df;
+}
+pre.theme-snappy-light .dec,
+pre.theme-snappy-light .com {
+  color: #aaa;
+}
+pre.theme-snappy-light .typ {
+  color: #f66153;
+}
+pre.theme-snappy-light .lit {
+  color: #808dd3;
+}
+pre.theme-snappy-light .pun,
+pre.theme-snappy-light .opn,
+pre.theme-snappy-light .clo {
+  color: #555;
+}
+pre.theme-snappy-light .tag {
+  color: #4ea1df;
+}
+pre.theme-snappy-light .atn {
+  color: #f66153;
+}
+pre.theme-snappy-light .atv {
+  color: #808dd3;
+}
+pre.theme-snappy-light .var {
+  color: #4ea1df;
+}
+pre.theme-snappy-light .fun {
+  color: #4ea1df;
+}
+
+
+/* ------- END OF THEME ------- */

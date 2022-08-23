@@ -1,0 +1,9 @@
+{
+    "login_engine_autologin_check_title" : "Auto-login Check Detection",
+    "login_engine_autologin_check_subtitle" : "Set the arrangement of check to be execute to automatically login a device",
+    "login_engine_autologin_check_select" : "Please select check that you want to perform when user connected to your network and their order",
+    "login_engine_autologin_check_save" : "Save",
+    "login_engine_autologin_check_available" : "AVAILABLE CHECK ITEMS",
+    "login_engine_autologin_check_order" : "CHECK TO BE PERFORM IN ORDER"
+    
+    }

@@ -1,0 +1,13 @@
+{
+    "login_engine_qrlogin_title" : "QR Login",
+    "login_engine_qrlogin_subtitle" : "Manage QR login setting",
+    "login_engine_qrlogin_save" : "Save",
+    "login_engine_qrlogin_enable" : "Enable",
+    "login_engine_qrloginp_link" : "Link With Profile",
+    "login_engine_qrlogin_none_link" : "None",
+    "login_engine_qrlogin_validity" : "Validity",
+    "login_engine_qrlogin_days" : "Days",
+    "login_engine_qrlogin_zone_restriction" : "Zone Restriction",
+    "login_engine_qrlogin_none_zone" : "None"
+    
+    }

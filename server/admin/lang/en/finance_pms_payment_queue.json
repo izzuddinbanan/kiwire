@@ -1,0 +1,11 @@
+{
+	"title"				:	"PMS Payment Queue",
+	"thead_no"			:	"NO",
+	"thead_username"	:	"USERNAME",
+	"thead_room"		:	"ROOM NO.",
+	"thead_logindate"	:	"LOGIN DATE",
+	"thead_postdate"	:	"POST DATE",
+	"thead_amount"		:	"CHARGE AMOUNT (MYR)",
+	"thead_remark"		:	"REMARK",
+	"thead_status"		:	"STATUS"
+}

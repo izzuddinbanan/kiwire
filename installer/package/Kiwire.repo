@@ -1,0 +1,35 @@
+[remi-modular]
+name=Remi Modular Repository
+mirrorlist=http://cdn.remirepo.net/enterprise/8/modular/$basearch/mirror
+enabled=1
+gpgcheck=1
+gpgkey=https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+
+[remi]
+name=Remi Repository
+mirrorlist=http://cdn.remirepo.net/enterprise/8/remi/$basearch/mirror
+enabled=1
+gpgcheck=1
+gpgkey=https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+
+[remi-safe]
+name=Remi Safe Repository
+mirrorlist=http://cdn.remirepo.net/enterprise/8/safe/$basearch/mirror
+enabled=1
+gpgcheck=1
+gpgkey=https://rpms.remirepo.net/RPM-GPG-KEY-remi2018
+
+[nginx-stable]
+name=NGINX Repository
+baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
+
+[mariadb]
+name=MariaDB
+baseurl=http://yum.mariadb.org/10.3/centos8-amd64
+module_hotfixes=1
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1

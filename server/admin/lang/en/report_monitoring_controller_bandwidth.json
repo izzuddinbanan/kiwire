@@ -1,0 +1,22 @@
+{
+  "monitoring_bandwidth_title" : "CONTROLLER BANDWIDTH (VIA SNMP)",
+  "monitoring_bandwidth_subtitle" : "Information on controller bandwidth (via SNMP)",
+  "monitoring_bandwidth_date_search" : "Date Search :",
+  "monitoring_bandwidth_to" : "to",
+  "monitoring_bandwidth_none" : "None",
+  "monitoring_bandwidth_search" : "Search",
+  "monitoring_bandwidth_no" : "NO",
+  "monitoring_bandwidth_date" : "DATE",
+  "monitoring_bandwidth_upload" : "TOTAL UPLOAD",
+  "monitoring_bandwidth_download" : "TOTAL DOWNLOAD",
+  "monitoring_bandwidth_average_bandwidth" : "AVERAGE BANDWIDTH",
+  "monitoring_bandwidth_hourly_view" : "HOURLY VIEW",
+  "monitoring_bandwidth_select" : "Please select a controller to view data",
+  "monitoring_bandwidth_modal_title" : "Login Frequency - Hourly",
+  "monitoring_bandwidth_modal_no" : "No",
+  "monitoring_bandwidth_modal_hour" : "Hour",
+  "monitoring_bandwidth_modal_upload" : "TOTAL UPLOAD ( MB )",
+  "monitoring_bandwidth_modal_download" : "TOTAL DOWNLOAD ( MB )",
+  "monitoring_bandwidth_modal_average_bandwidth" : "AVERAGE BANDWIDTH ( MBPS )",
+  "monitoring_bandwidth_modal_close" : "Close"
+} 

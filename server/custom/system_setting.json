@@ -1,0 +1,23 @@
+{
+  "freeprofile_interim": "3600",
+  "paidprofile_interim": "1800",
+  "keep_log_data": "7",
+  "system_url": "http://www.synchroweb.com",
+  "expired_check": "00:00",
+  "update_check": "00:00",
+  "campaign_check": "00:00",
+  "backup_interval": "4",
+  "backup_db": "00:00",
+  "service_monitor": "00:00",
+  "device_monitor": "10",
+  "notification_interval": "15",
+  "statistics_admin": "00:00",
+  "statistics_user": "00:00",
+  "reset_daily": "00:00",
+  "reset_weekly": "00:00",
+  "reset_monthly": "00:00",
+  "reset_yearly": "00:00",
+  "integration_worker": 1,
+  "service_worker": 1,
+  "tenant_via_ip": "no"
+}

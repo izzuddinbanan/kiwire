@@ -1,0 +1,21 @@
+{
+  "login_active_session_title" : "ACTIVE SESSION",
+  "login_active_session_subtitle" : "Listing of current connected user",
+  "login_active_session_no" : "NO",
+  "login_active_session_action" : "ACTION",
+  "login_active_session_login_time" : "LOGIN TIME",
+  "login_active_session_username" : "USERNAME",
+  "login_active_session_mac_address" : "MAC ADDR",
+  "login_active_session_ip_address" : "IP ADDRESS",
+  "login_active_session_ipv6_address" : "IPV6 ADDRESS",
+  "login_active_session_upload" : "UPLOAD",
+  "login_active_session_download" : "DOWNLOAD",
+  "login_active_session_zone" : "ZONE",
+  "login_active_session_nas_id" : "NAS ID",
+  "login_active_session_average_speed" : "AVERAGE SPEED",
+  "login_active_session_class" : "CLASS",
+  "login_active_session_brand" : "BRAND",
+  "login_active_session_model" : "MODEL",
+  "login_active_session_os" : "OS",
+  "login_active_session_tenant" : "TENANT"
+} 

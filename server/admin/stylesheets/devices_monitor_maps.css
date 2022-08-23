@@ -1,0 +1,33 @@
+.device-img {
+    background-color: #35ffc3;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 1px solid rgba(44,62,80,0.48);
+    box-shadow: 0px 0px 15px black;
+}
+.device-img:hover {
+    background-color: #e74c3c;
+    z-index: 99999 !important;
+    cursor: pointer;
+}
+.device-img:hover>.device-name>span{
+    background-color: rgba(44,62,80,1);
+}
+.device-img>.device-name{
+    position: absolute;
+    top: 140%;
+    text-align: center;
+    font-size: 0.9em;
+    left: 50%;
+    display: inline-block;
+}
+.device-img>.device-name>span{
+    position: relative;
+    left: -50%;
+    background-color: rgba(44,62,80,0.78);
+    color: #ecf0f1;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display:block;
+}

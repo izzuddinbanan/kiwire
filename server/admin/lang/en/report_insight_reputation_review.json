@@ -1,0 +1,15 @@
+{
+  "insight_reputation_review_title" : "ONLINE REPUTATION REVIEW",
+  "insight_reputation_review_subtitle" : "Net promoter score and facebook reviews",
+  "insight_reputation_review_positive_feedback" : "TOTAL POSITIVE FEEDBACK",
+  "insight_reputation_review_negative_feedback" : "TOTAL NEGATIVE FEEDBACK",
+  "insight_reputation_review_piechart1" : "User Review Based on Net Promoter Score",
+  "insight_reputation_review_piechart2" : "User Review Based on Facebook Data",
+  "insight_reputation_review_no" : "NO",
+  "insight_reputation_review_page_name" : "PAGE NAME",
+  "insight_reputation_review_reviewer_id" : "REVIEWER ID",
+  "insight_reputation_review_reviewer_name" : "REVIEWER NAME",
+  "insight_reputation_review_recommendation" : "RECOMMENDATION",
+  "insight_reputation_review_reviewer_text" : "REVIEW TEXT",
+  "insight_reputation_review_score" : "SCORE"
+} 

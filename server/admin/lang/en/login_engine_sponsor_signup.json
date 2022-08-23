@@ -1,0 +1,27 @@
+{
+    "login_engine_sponsor_signup_title" : "Sponsor Sign Up",
+    "login_engine_sponsor_signup_subtitle" : "Sign up page for visitor",
+    "login_engine_sponsor_signup_save" : "Save",
+    "login_engine_sponsor_signup_enable" : "Enable",
+    "login_engine_sponsor_signup_temp_tosponsor" : "Template [ to Sponsor ]",
+    "login_engine_sponsor_signup_none_temps": "None ",
+    "login_engine_sponsor_signup_temp_touser" : "Template [ to User ]",
+    "login_engine_sponsor_signup_none_tempu" : "None",
+    "login_engine_sponsor_signup_confirm_pages" : "Confirmed Page",
+    "login_engine_sponsor_signup_none_confirm" : "None",
+    "login_engine_sponsor_signup_inform_acc" : "Inform Account Verified via",
+    "login_engine_sponsor_signup_none_inform" : "None",
+    "login_engine_sponsor_signup_sms": "SMS ",
+    "login_engine_sponsor_signup_inform_desc" : "Please make sure you have updated the SMS gateway",
+    "login_engine_sponsor_signup_allowed_domain" : "Allowed Sponsor E-mail Domain",
+    "login_engine_sponsor_signup_allowed_desc" : "Eg: domain.com",
+    "login_engine_sponsor_signup_link" : "Link With Profile",
+    "login_engine_sponsor_signup_none_link" : "None",
+    "login_engine_sponsor_signup_validity" : "Validity",
+    "login_engine_sponsor_signup_days" : "Days",
+    "login_engine_sponsor_signup_prefix" : "Prefix",
+    "login_engine_sponsor_signup_zone_restriction" : "Zone Restriction",
+    "login_engine_sponsor_signup_none_zone" : "None",
+    "login_engine_sponsor_signup_add_field" : "Additional Fields"
+    
+    }

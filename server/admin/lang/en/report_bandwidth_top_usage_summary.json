@@ -1,0 +1,20 @@
+{
+  "bandwidth_top_usage_title" : "TOP BANDWIDTH USAGE SUMMARY",
+  "bandwidth_top_usage_subtitle" : "Information on historic top bandwidth users",
+  "bandwidth_top_usage_date_search" : "Date Search :",
+  "bandwidth_top_usage_to" : "to",
+  "bandwidth_top_usage_option_download" : "Download",
+  "bandwidth_top_usage_option_upload" : "Upload",
+  "bandwidth_top_usage_search" : "Search",
+  "bandwidth_top_usage_no" : "NO",
+  "bandwidth_top_usage_login_time" : "Login Time",
+  "bandwidth_top_usage_username" : "Username",
+  "bandwidth_top_usage_usage_time" : "Usage Time",
+  "bandwidth_top_usage_ipaddress" : "IP Address",
+  "bandwidth_top_usage_mac_address" : "Mac Address",
+  "bandwidth_top_usage_download" : "Download",
+  "bandwidth_top_usage_upload" : "Upload",
+  "bandwidth_top_usage_average_download" : "Average Download",
+  "bandwidth_top_usage_average_upload" : "Average Upload",
+  "bandwidth_top_usage_loading" : "Loading.."
+} 

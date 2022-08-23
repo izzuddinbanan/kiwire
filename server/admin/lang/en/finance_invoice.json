@@ -1,0 +1,12 @@
+{
+	"title"					:	"Invoice",
+	"subtitle"				:	"View financial report & invoices",
+	"thead_no"				:	"NO",
+	"thead_invoice_no"		:	"INVOICE NO",
+	"thead_invoice_date"	:	"INVOICE DATE",
+	"thead_username"		:	"USERNAME",
+	"thead_profile"			:	"PROFILE",
+	"thead_balance"			:	"OUTSTANDING BALANCE(MYR)",
+	"thead_status"			:	"STATUS",
+	"thead_action"			:	"ACTION",
+}

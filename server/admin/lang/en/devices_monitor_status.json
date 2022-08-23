@@ -1,0 +1,13 @@
+{
+	"title"				:	"Monitoring Status",
+	"subtitle"			:	"List of device status",
+	"reload"			:	"RELOAD IN ",
+	"remaining"			:	"60",
+	"thead_no"			:	"No",
+	"thead_identity"	:	"Identity",
+	"thead_ip"			:	"IP Address",
+	"thead_type"		:	"Type",
+	"thead_status"		:	"Status",
+	"thead_lastrun"		:	"Last Running Time",
+	"tbody_loading"		:	"Loading..."
+}

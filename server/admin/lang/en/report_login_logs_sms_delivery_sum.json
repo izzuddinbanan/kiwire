@@ -1,0 +1,10 @@
+{
+  "logs_sms_title" : "SMS Delivery Summary",
+  "logs_sms_subtitle" : "SMS delivery log",
+  "logs_sms_no" : "NO",
+  "logs_sms_phone_no" : "PHONE NO",
+  "logs_sms_gateway" : "GATEWAY",
+  "logs_sms_creation_date" : "CREATION DATE/TIME",
+  "logs_sms_send_date" : "SEND DATE/TIME",
+  "logs_sms_status" : "STATUS"
+} 

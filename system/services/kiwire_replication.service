@@ -1,0 +1,21 @@
+[Unit]
+Description=Kiwire Replication
+After=network.target mariadb.service redis.service
+
+[Service]
+Type=forking
+
+WorkingDirectory=/var/www/kiwire/system/daemon
+
+ExecStart=/usr/bin/env php /var/www/kiwire/system/daemon/kiwire_replication.php
+ExecStop=/bin/kill $MAINPID
+ExecReload=/bin/kill -USR1 $MAINPID
+
+Restart=always
+RestartSec=15s
+
+PIDFile=/run/kiwire-replication.pid
+
+[Install]
+WantedBy=multi-user.target
+

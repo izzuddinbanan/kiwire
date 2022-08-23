@@ -1,0 +1,21 @@
+{
+  "impression_zone_title" : "CAPTIVE PORTAL IMPRESSION SUMMARY BY ZONE",
+  "impression_zone_subtitle" : "Impression summary on captive portal or login page by zone",
+  "impression_zone_date_search" : "Date Search :",
+  "impression_zone_to" : "to",
+  "impression_zone_search" : "Search",
+  "impression_zone_total_impression" : "TOTAL IMPRESSION",
+  "impression_zone_average_impression" : "AVERAGE IMPRESSION",
+  "impression_zone_total_unique_impression" : "TOTAL UNIQUE IMPRESSION",
+  "impression_zone_average_unique_impression" : "AVERAGE UNIQUE IMPRESSION",
+  "impression_zone_no" : "No",
+  "impression_zone_date" : "Date",
+  "impression_zone_impression" : "Total Impression",
+  "impression_zone_unique_impression" : "Unique IMPRESSION",
+  "impression_zone_hourly_view" : "Hourly View",
+  "impression_zone_modal_title" : "Captive Portal Impression by Zone - Hourly",
+  "impression_zone_modal_hour" : "Hour",
+  "impression_zone_modal_impression" : "Total Impression",
+  "impression_zone_modal_unique_impression" : "Unique Impression",
+  "impression_zone_modal_close" : "Close"
+} 

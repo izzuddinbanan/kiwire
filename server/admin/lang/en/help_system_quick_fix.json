@@ -1,0 +1,11 @@
+{
+    "help_system_quick_fix_title" : "System Quick Fix",
+    "help_system_quick_fix_subtitle" : "Quickly fix simple system issues",
+    "help_system_quick_fix_issues" : "KNOWN ISSUES / PROBLEMS",
+    "help_system_quick_fix_action" : "ACTION",
+    "help_system_quick_fix_reset_operator" : "Reset operator role",
+    "help_system_quick_fix_clear_chached" : "Clear cached",
+    "help_system_quick_fix_system_db" : "System / Database / PHP Timezone",
+    "help_system_quick_fix_no_file" : "No file display / unable to upload in Login Engine -> Media"
+    
+}

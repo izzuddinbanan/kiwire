@@ -1,0 +1,17 @@
+{
+  "insight_social_data_title" : "SOCIAL NETWORK DATA",
+  "insight_social_data_subtitle" : "Social network users information",
+  "insight_social_data_date_search" : "Date Search :",
+  "insight_social_data_to" : "to",
+  "insight_social_data_search" : "Search",
+  "insight_social_data_no" : "No",
+  "insight_social_data_date" : "Date / Time",
+  "insight_social_data_username" : "Username",
+  "insight_social_data_fullname" : "Fullname",
+  "insight_social_data_gender" : "Gender",
+  "insight_social_data_age" : "Age Group",
+  "insight_social_data_location" : "Location",
+  "insight_social_data_email" : "E-Mail",
+  "insight_social_data_social" : "Social Network",
+  "insight_social_data_birthday" : "Birthday"
+} 

@@ -1,0 +1,13 @@
+{
+  "insight_signup_data_title" : "Sign Up Data",
+  "insight_signup_data_subtitle" : "User sign up information",
+  "insight_signup_data_date_search" : "Date Search :",
+  "insight_signup_data_to" : "to",
+  "insight_signup_data_search" : "Search",
+  "insight_signup_data_no" : "No",
+  "insight_signup_data_date_time" : "Date / Time",
+  "insight_signup_data_username" : "Username",
+  "insight_signup_data_email" : "Email",
+  "insight_signup_data_age" : "Age",
+  "insight_signup_data_gender" : "Gender"
+} 

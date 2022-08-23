@@ -1,0 +1,12 @@
+{
+  "login_top_accounts_title" : "TOP ACCOUNTS",
+  "login_top_accounts_subtitle" : "Information of top 50 user or device (for the past 6 months)",
+  "login_top_accounts_date_search" : "Date Search :",
+  "login_loginlogin_top_accounts_tos_freq_to" : "to",
+  "login_top_accounts_username" : "Username",
+  "login_top_accounts_mac_address" : "MAC Address",
+  "login_top_accounts_search" : "Search",
+  "login_top_accounts_no" : "No",
+  "login_top_accounts_username_mac" : "Username / MAC",
+  "login_top_accounts_login" : "Total Login"
+} 

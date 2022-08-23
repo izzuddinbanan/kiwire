@@ -1,0 +1,13 @@
+{
+    "integration_microsoft_title" : "Microsoft",
+    "integration_microsoft_subtitle" : "Manage microsoft / office 365 login integration",
+    "integration_microsoft_save" : "Save",
+    "integration_microsoft_enable" : "Enable",
+    "integration_microsoft_domain_allowed" : "Domain Allowed",
+    "integration_microsoft_allow_desc" : "Allow only specific domain to be registered",
+    "integration_microsoft_link" : "Link With Profile",
+    "integration_microsoft_none" : "None",
+    "integration_microsoft_zone_restriction" : "Zone Restriction",
+    "integration_microsoft_none2" : "None"
+    
+    }

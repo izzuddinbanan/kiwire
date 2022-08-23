@@ -1,0 +1,13 @@
+{
+    "help_license_title" : "License Usage",
+    "help_license_subtitle" : "View current number of NAS and licensing",
+    "help_license_no" : "No",
+    "help_license_cust_name" : "Customer name",
+    "help_license_type" : "License Type",
+    "help_license_status" : "Status",
+    "help_license_expiry_date" : "Expiry Date",
+    "help_license_allowed_controller" : "Allowed No. Of Controller",
+    "help_license_current_controller" : "Current No. Of Controller",
+    "help_license_percentage" : "Percentage (%)"
+    
+}

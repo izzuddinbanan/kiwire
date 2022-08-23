@@ -1,0 +1,14 @@
+{
+	"title"					:	"Voucher Slip",
+	"subtitle" 				:	"Print voucher slip",
+	"thead_no"				:	"CREATED BY",
+	"thead_qty"				:	"QTY",
+	"thead_remark"			:	"REMARK",
+	"thead_created"			:	"CREATE DATE",
+	"thead_expiry"			:	"EXPIRY DATE",
+	"thead_print_onecol"	:	"PRINT (A4) ONE COLUMN",
+	"thead_print_twocol"	:	"PRINT (A4) TWO COLUMN",
+	"thead_print_pos"		:	"PRINT (POS) SLIP",
+	"thead_print_qr"		:	"PRINT (QRCODE) TWO COLUMN",
+	"thead_export"			:	"EXPORT",
+}

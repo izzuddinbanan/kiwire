@@ -1,0 +1,20 @@
+/* 
+CUSTOM CONTENT CSS FILE
+*/
+
+.content-wrapper{
+    background-color: yellow;
+}
+
+.content-header-title{
+    color: #ffffff !important;
+}
+
+.card, .card-header > h4{
+    background-color: brown;
+    color: #ffffff;
+}
+
+svg {
+    color: #ffffff;
+}

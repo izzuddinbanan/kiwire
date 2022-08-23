@@ -1,0 +1,11 @@
+{
+    "help_sources_credits_title" : "Sources & Credits",
+    "help_sources_credits_subtitle" : "External code and their licenses",
+    "help_sources_credits_used" : "We've used the following images, icons or other plugins URL, License as listed.",
+    "help_sources_credits_licensed_mmenu" : "KIWIRE contains licensed mmenu within the package.",
+    "help_sources_credits_core" : "Core System",
+    "help_sources_credits_name" : "Name",
+    "help_sources_credits_url" : "URL",
+    "help_sources_credits_license" : "License"
+    
+    }

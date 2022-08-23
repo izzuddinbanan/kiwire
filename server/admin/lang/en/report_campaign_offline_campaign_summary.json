@@ -1,0 +1,21 @@
+{
+  "camp_offline_camp_title" : "Offline Campaign Summary",
+  "camp_offline_camp_subtitle" : "Information offline campaign summary",
+  "camp_offline_camp_date_search" : "Date Search :",
+  "camp_offline_camp_to" : "to",
+  "camp_offline_camp_search" : "Search",
+  "camp_offline_camp_no" : "NO",
+  "camp_offline_camp_camp_name" : "CAMPAIGN NAME",
+  "camp_offline_camp_start_date" : "START DATE",
+  "camp_offline_camp_end_date" : "END DATE",
+  "camp_offline_camp_trigger" : "TRIGGER",
+  "camp_offline_camp_target" : "TARGET",
+  "camp_offline_camp_source" : "SOURCE",
+  "camp_offline_camp_total_engagement" : "Total Engagement",
+  "camp_offline_camp_status" : "STATUS",
+  "camp_offline_camp_action" : "ACTION",
+  "camp_offline_camp_modal_title" : "Offline Campaign Hourly View",
+  "camp_offline_camp_modal_date" : "Date",
+  "camp_offline_camp_modal_clicked" : "Engagement",
+  "camp_offline_camp_modal_close" : "Close"
+} 

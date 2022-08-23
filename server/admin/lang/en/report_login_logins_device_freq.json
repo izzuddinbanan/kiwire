@@ -1,0 +1,19 @@
+{
+  "login_logins_device_freq_title" : "LOGIN DEVICE FREQUENCY",
+  "login_logins_device_freq_subtitle" : "Information on device login frequency & unique device login",
+  "login_logins_device_freq_date_search" : "Date Search :",
+  "login_logins_device_freq_to" : "to",
+  "login_logins_device_freq_search" : "Search",
+  "login_logins_device_freq_no" : "No",
+  "login_logins_device_freq_date" : "Date",
+  "login_logins_device_freq_device_login" : "Total Device Login",
+  "login_logins_device_freq_unique_daily" : "Unique Device ( Daily )",
+  "login_logins_device_freq_unique_forever" : "Unique Device ( Forever )",
+  "login_logins_device_freq_hourly_view" : "Hourly view",
+  "login_logins_device_freq_modal_title" : "Login Device Frequency - Hourly",
+  "login_logins_device_freq_modal_hour" : "Hour",
+  "login_logins_device_freq_modal_device_login" : "Total Device Login",
+  "login_logins_device_freq_modal_unique_daily" : "Unique Device ( Daily )",
+  "login_logins_device_freq_modal_unique_forever" : "Unique Device ( Forever )",
+  "login_logins_device_freq_modal_close" : "Close"
+} 

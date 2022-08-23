@@ -1,0 +1,24 @@
+{
+    "policy_config_title" : "Configuration",
+    "policy_config_subtitle" : "Overall policy",
+    "policy_config_save" : "Save",
+    "policy_config_main" : "MAIN",
+    "policy_config_mac_security" : "MAC SECURITY",
+    "policy_config_autologin" : "AUTOLOGIN",
+    "policy_config_auto_disconnect" : "Auto disconnect user connected session when same user relogin",
+    "policy_config_suspend_users" : "Suspend users account when credit has been exhausted",
+    "policy_config_remember_user" : "Remember user credential for the next login",
+    "policy_config_user_cookies" : "User cookies must be enabled",
+    "policy_config_required_2fa" : "Required 2 factor authentication",
+    "policy_config_sms_supported" : "Only SMS supported, please make sure SMS gateway is provided",
+    "policy_config_required_captcha" : "Required captcha",
+    "policy_config_delete_unverified_acc" : "Delete unverified account ( for temporary access account, ie: email verification sign-up )",
+    "policy_config_mac_register" : "MAC Auto Register",
+    "policy_config_max_num" : "Maximum number of MAC Address to be registered per account",
+    "policy_config_allowed" : "Allowed registered mac to login using registered Account",
+    "policy_config_cookies_autologin" : "Cookies Auto Login",
+    "policy_config_cookies_validity" : "Cookies Auto Login Days",
+    "policy_config_mac_autologin" : "MAC Auto Login",
+    "policy_config_mac_autologin_days" : "MAC Address Auto Login Days"
+    
+    }

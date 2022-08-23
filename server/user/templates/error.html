@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Wifi - Error</title>
+    <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/ico/favicon.ico">
+
+    <link href="/libs/google-fonts/montserrat/montserrat.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/themes/semi-dark-layout.css">
+
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/core/colors/palette-gradient.css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+</head>
+
+<body class="vertical-layout vertical-menu-modern 1-column  navbar-floating footer-static bg-full-screen-image  blank-page blank-page" data-open="click" data-menu="vertical-menu-modern" data-col="1-column">
+
+<div class="app-content content">
+    <div class="content-wrapper">
+        <div class="content-header row">
+        </div>
+        <div class="content-body">
+
+            <section class="row flexbox-container">
+                <div class="col-xl-7 col-md-8 col-12 d-flex justify-content-center">
+                    <div class="card auth-card bg-transparent shadow-none rounded-0 mb-0 w-100">
+                        <div class="card-content">
+                            <div class="card-body text-center">
+                                <img src="/app-assets/images/pages/not-authorized.png" class="img-fluid align-self-center" alt="branding logo">
+                                <h1 class="my-2 error-title">[ {{error-code}} ] : {{error-title}}</h1>
+                                <p class="p-2 error-message">
+                                    {{error-message}}
+                                </p>
+                                <button type="button" class="btn btn-warning btn-lg btn-report-issue">Report Issue</button>
+                                <button type="button" class="btn btn-primary btn-lg btn-retry">Retry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade text-left show" id="error-report" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                Report Issue
+            </div>
+
+            <div class="modal-body">
+
+                <form class="form form-vertical">
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="first-name-vertical">Name [minimum 5 characters]</label>
+                                    <input type="text" id="first-name-vertical" class="form-control" name="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="email-id-vertical">Email</label>
+                                    <input type="email" id="email-id-vertical" class="form-control" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="contact-info-vertical">Please briefly explain what have you done before getting this error.</label>
+                                    <textarea id="contact-info-vertical" rows="5" class="form-control" name="issue" placeholder="Issue"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger waves-effect waves-light" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-warning waves-effect waves-light btn-send-report">Report Issue</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div aria-live="polite" aria-atomic="true" class="toast-placement d-flex justify-content-center align-items-center" data-autohide="false">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+        <div class="toast-body">
+            Thanks for reporting this issue. <br>
+            We will get back to you soonest as possible.
+        </div>
+    </div>
+</div>
+
+
+
+<script type="application/javascript" src="/app-assets/vendors/js/vendors.min.js"></script>
+<script type="application/javascript" src="/app-assets/js/scripts/components.js"></script>
+
+
+<script>
+
+
+    $(".btn-retry").on("click", function () {
+
+        window.location.href = "{{retry-url}}";
+
+    });
+
+
+    $(".btn-report-issue").on("click", function () {
+
+        $("#error-report").modal();
+
+    });
+
+
+    $("input, textarea").on("keyup", function () {
+
+        if ($(this).val().length > 5){
+
+            $(this).siblings("label").css("color", "black");
+
+        }
+
+    });
+
+
+    $(".btn-send-report").on("click", function () {
+
+
+        var checked = true;
+
+
+        $("input, textarea").each(function(){
+
+
+            var current_element = $(this);
+
+
+            if (current_element.val().length < 5){
+
+
+                current_element.siblings("label").css("color", "red");
+
+
+                if (checked === true){
+
+                    current_element.focus();
+
+                }
+
+
+                checked = false;
+
+
+            }
+
+
+        });
+
+
+        if (checked === true){
+
+
+            var report = $("form").serialize();
+
+            report += "&error-title=" + encodeURIComponent($(".error-title").html().trim());
+            report += "&error-message=" + encodeURIComponent($(".error-message").html().trim());
+
+            report += "&host=" + window.location.host;
+            report += "&query=" + window.location.search;
+
+            $.ajax({
+                url: "/user/report/",
+                method: "post",
+                data: report,
+                success: function (response) {
+
+
+                    $("#error-report").modal("toggle");
+
+                    $(".btn-report-issue").css("display", "none");
+
+                    $('.toast-placement .toast').toast('show');
+
+
+                },
+                error: function () {
+
+                    $("#error-report").modal("toggle");
+
+                }
+            });
+
+
+        }
+
+
+    });
+
+
+</script>
+
+
+</body>
+
+</html>

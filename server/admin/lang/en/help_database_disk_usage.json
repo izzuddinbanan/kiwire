@@ -1,0 +1,8 @@
+{
+	"title"			:	"Database Disk Usage",
+	"subtitle"		:	"Database disk usage information",
+	"thead_no"		:	"Reported Statistic",
+	"thead_data"	:	"Data Size",
+	"thead_index"	:	"Index Size",
+	"thead_total"	:	"Total Size"
+}
